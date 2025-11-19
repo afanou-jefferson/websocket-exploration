@@ -1,0 +1,22 @@
+<h1>Hello World</h1>
+<p>Backend says: {{ greeting() }}</p>
+
+<h2>Users</h2>
+<ul>
+    @for (user of users(); track user.id) {
+    <li>
+        {{ user.name }}
+        @if (user.profession) {
+        - {{ user.profession }}
+        } @else {
+        <button (click)="fetchProfession(user)">Show Profession</button>
+        }
+    </li>
+    }
+</ul>
+
+<h2>Chat Components</h2>
+<div style="display: flex; gap: 20px;">
+    <app-chat identity="Component A"></app-chat>
+    <app-chat identity="Component B"></app-chat>
+</div>
