@@ -14,7 +14,11 @@ export class WebSocketStompService {
 
     constructor() {
         this.client = new Client({
-            webSocketFactory: () => new SockJS('http://localhost:8080/ws-stomp'),
+            webSocketFactory: () => {
+                // Handle potential default export issue with SockJS
+                const _SockJS = (SockJS as any).default || SockJS;
+                return new _SockJS('http://localhost:8080/ws-stomp');
+            },
             reconnectDelay: 5000,
             heartbeatIncoming: 4000,
             heartbeatOutgoing: 4000,

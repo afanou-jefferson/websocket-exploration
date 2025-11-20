@@ -1,6 +1,5 @@
 import { Component, signal, inject, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { RouterOutlet } from '@angular/router';
 import { WebSocketService } from './websocket.service';
 import { ChatComponent } from './chat.component';
 import { WebSocketStompService } from './websocket-stomp.service';
@@ -8,7 +7,7 @@ import { ChatStompComponent } from './chat-stomp.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ChatComponent, ChatStompComponent],
+  imports: [ChatComponent, ChatStompComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
