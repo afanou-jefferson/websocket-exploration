@@ -3,10 +3,12 @@ import { HttpClient } from '@angular/common/http';
 import { RouterOutlet } from '@angular/router';
 import { WebSocketService } from './websocket.service';
 import { ChatComponent } from './chat.component';
+import { WebSocketStompService } from './websocket-stomp.service';
+import { ChatStompComponent } from './chat-stomp.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ChatComponent],
+  imports: [RouterOutlet, ChatComponent, ChatStompComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
@@ -15,6 +17,7 @@ export class App implements OnInit {
   protected readonly greeting = signal('');
   private readonly http = inject(HttpClient);
   private readonly wsService = inject(WebSocketService);
+  private readonly wsStompService = inject(WebSocketStompService);
 
   protected readonly users = signal<{ id: number, name: string, profession?: string }[]>([]);
 
@@ -23,6 +26,10 @@ export class App implements OnInit {
       if (data.message) {
         this.greeting.set(data.message);
       }
+    });
+
+    this.wsStompService.counter$.subscribe(message => {
+      this.greeting.set(message);
     });
 
     this.http.get<{ id: number, name: string }[]>('http://localhost:8080/api/users')
