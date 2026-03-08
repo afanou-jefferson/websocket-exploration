@@ -4,10 +4,24 @@ import { WebSocketService } from './websocket.service';
 import { ChatComponent } from './chat.component';
 import { WebSocketStompService } from './websocket-stomp.service';
 import { ChatStompComponent } from './chat-stomp.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatListModule } from '@angular/material/list';
+import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
   selector: 'app-root',
-  imports: [ChatComponent, ChatStompComponent],
+  standalone: true,
+  imports: [
+    ChatComponent, 
+    ChatStompComponent,
+    MatToolbarModule,
+    MatCardModule,
+    MatButtonModule,
+    MatListModule,
+    MatDividerModule
+  ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
