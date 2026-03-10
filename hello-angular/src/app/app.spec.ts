@@ -25,6 +25,7 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     fixture.detectChanges();
+    //debugger;
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('span')?.textContent).toContain('Hello World');
   });

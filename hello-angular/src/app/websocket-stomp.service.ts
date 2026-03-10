@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Client, StompSubscription } from '@stomp/stompjs';
 import { Subject } from 'rxjs';
-import SockJS from 'sockjs-client';
+// @ts-ignore
+import SockJS from 'sockjs-client/dist/sockjs';
 
 @Injectable({
     providedIn: 'root'

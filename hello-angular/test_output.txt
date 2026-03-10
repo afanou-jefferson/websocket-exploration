@@ -1,0 +1,420 @@
+
+> hello-angular@0.0.0 test:ui
+> ng test --watch
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[33mÔØ»[39m Building...
+[32mÔ£ö[39m Building...
+[1mInitial chunk files[22m                          [2m | [22m[1mNames[22m                                     [2m | [22m [1mRaw size[22m
+[32mstyles.css[39m                                   [2m | [22m[2mstyles[22m                                    [2m | [22m[36m111.64 kB[39m[2m | [22m
+[32mspec-app-app.js[39m                              [2m | [22m[2mspec-app-app[22m                              [2m | [22m [36m28.85 kB[39m[2m | [22m
+[32mchunk-2DZ766GI.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m [36m14.08 kB[39m[2m | [22m
+[32mchunk-WDVXE4IV.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m [36m12.28 kB[39m[2m | [22m
+[32mchunk-XNDA3IA4.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m  [36m5.67 kB[39m[2m | [22m
+[32mspec-app-chat.component.js[39m                   [2m | [22m[2mspec-app-chat.component[22m                   [2m | [22m  [36m3.97 kB[39m[2m | [22m
+[32mchunk-UO6UOCGO.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m  [36m3.22 kB[39m[2m | [22m
+[32mspec-app-legacy-chat-chat-legacy.component.js[39m[2m | [22m[2mspec-app-legacy-chat-chat-legacy.component[22m[2m | [22m  [36m2.12 kB[39m[2m | [22m
+[32minit-testbed.js[39m                              [2m | [22m[2minit-testbed[22m                              [2m | [22m  [36m1.21 kB[39m[2m | [22m
+[32mvitest-mock-patch.js[39m                         [2m | [22m[2mvitest-mock-patch[22m                         [2m | [22m[36m704 bytes[39m[2m | [22m
+[32mpolyfills.js[39m                                 [2m | [22m[2mpolyfills[22m                                 [2m | [22m [36m82 bytes[39m[2m | [22m
+
+[1m [22m                                            [2m | [22m[1mInitial total[22m                             [2m | [22m[1m183.81 kB[22m
+
+Application bundle generation complete. [1.281 seconds] - 2026-03-09T14:11:26.344Z
+
+Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+    angular:polyfills:angular:polyfills:1:7:
+      1 Ôöé import './src/polyfills.ts';
+        ÔòÁ        ~~~~~~~~~~~~~~~~~~~~
+
+  The file will be bundled and included in the output but will not be type-checked at build time. To remove this message you can add the file to the TypeScript program via the 'files' or 'include' property.
+
+
+Watch mode enabled. Watching for file changes...
+
+[1m[44m DEV [49m[22m [34mv4.0.18 [39m[90mC:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular[39m
+
+Port 63315 is in use, trying another one...
+[90mstdout[2m | src/app/app.spec.ts[2m:18:3[22m[2m[2m > [22m[2mApp[2m > [22m[2mshould create the app
+[22m[39mSTOMP: Opening Web Socket...
+[90mstdout[2m | src/app/app.spec.ts[2m:24:3[22m[2m[2m > [22m[2mApp[2m > [22m[2mshould render title
+[22m[39mSTOMP: Opening Web Socket...
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 53[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/chat.component.spec.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/legacy-chat/chat-legacy.component.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m3 passed[39m[22m[90m (3)[39m
+[2m      Tests [22m [1m[32m12 passed[39m[22m[90m (12)[39m
+[2m   Start at [22m 15:11:26
+[2m   Duration [22m 2.53s[2m (transform 0ms, setup 373ms, import 188ms, tests 89ms, environment 0ms)[22m
+
+[1m[42m PASS [49m[22m [32mWaiting for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m
+stderr | unknown test
+Counter WebSocket error: Event {
+  "isTrusted": true,
+}
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Connection closed to http://localhost:8080/ws-stomp
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: STOMP: scheduling reconnection in 5000ms
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Connection closed to http://localhost:8080/ws-stomp
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: STOMP: scheduling reconnection in 5000ms
+stderr | unknown test
+Chat WebSocket error: Event {
+  "isTrusted": true,
+}
+c[3J[1m[44m RERUN [49m[22m [34m[2mrerun test [22m[34mx1 [34m[39m
+       [2m Test name pattern: [22m[34m/should render title/[39m
+
+[90mstdout[2m | src/app/app.spec.ts[2m:24:3[22m[2m[2m > [22m[2mApp[2m > [22m[2mshould render title
+[22m[39mSTOMP: Opening Web Socket...
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[33m1 skipped[39m[2m)[22m[32m 30[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m1 passed[39m[22m[2m | [22m[33m1 skipped[39m[90m (2)[39m
+[2m   Start at [22m 15:11:33
+[2m   Duration [22m 183ms
+
+[1m[42m PASS [49m[22m [32mWaiting for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m
+c[3J[1m[44m RERUN [49m[22m [34m[2mrerun test [22m[34mx2 [34m[39m
+       [2m Test name pattern: [22m[34m/should render title/[39m
+
+[90mstdout[2m | src/app/app.spec.ts[2m:24:3[22m[2m[2m > [22m[2mApp[2m > [22m[2mshould render title
+[22m[39mSTOMP: Opening Web Socket...
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[33m1 skipped[39m[2m)[22m[32m 20[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m1 passed[39m[22m[2m | [22m[33m1 skipped[39m[90m (2)[39m
+[2m   Start at [22m 15:11:34
+[2m   Duration [22m 173ms
+
+[1m[42m PASS [49m[22m [32mWaiting for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m
+c[3J[1m[44m RERUN [49m[22m [34m[2mrerun test [22m[34mx3 [34m[39m
+       [2m Test name pattern: [22m[34m/should render title/[39m
+
+[90mstdout[2m | src/app/app.spec.ts[2m:24:3[22m[2m[2m > [22m[2mApp[2m > [22m[2mshould render title
+[22m[39mSTOMP: Opening Web Socket...
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[33m1 skipped[39m[2m)[22m[32m 23[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m1 passed[39m[22m[2m | [22m[33m1 skipped[39m[90m (2)[39m
+[2m   Start at [22m 15:11:35
+[2m   Duration [22m 153ms
+
+[1m[42m PASS [49m[22m [32mWaiting for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Connection closed to http://localhost:8080/ws-stomp
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: STOMP: scheduling reconnection in 5000ms
+stderr | unknown test
+Counter WebSocket error: Event {
+  "isTrusted": true,
+}
+stderr | unknown test
+Chat WebSocket error: Event {
+  "isTrusted": true,
+}
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Opening Web Socket...
+stderr | unknown test
+Lock WebSocket error: Event {
+  "isTrusted": true,
+}
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Connection closed to http://localhost:8080/ws-stomp
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: STOMP: scheduling reconnection in 5000ms
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Opening Web Socket...
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Connection closed to http://localhost:8080/ws-stomp
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: STOMP: scheduling reconnection in 5000ms
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Opening Web Socket...
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Connection closed to http://localhost:8080/ws-stomp
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: STOMP: scheduling reconnection in 5000ms
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Opening Web Socket...
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Connection closed to http://localhost:8080/ws-stomp
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: STOMP: scheduling reconnection in 5000ms
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Opening Web Socket...
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Connection closed to http://localhost:8080/ws-stomp
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: STOMP: scheduling reconnection in 5000ms
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Opening Web Socket...
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Connection closed to http://localhost:8080/ws-stomp
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: STOMP: scheduling reconnection in 5000ms
+[33mÔØ»[39m Changes detected. Rebuilding...
+[32mÔ£ö[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.210 seconds] - 2026-03-09T14:12:23.389Z
+
+X [ERROR] TS2304: Cannot find name 'WebSocketStompService'. [plugin angular-compiler]
+
+    src/app/app.spec.ts:15:19:
+      15 Ôöé           provide: WebSocketStompService,
+         ÔòÁ                    ~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'Subject'. [plugin angular-compiler]
+
+    src/app/app.spec.ts:17:27:
+      17 Ôöé             messages$: new Subject(),
+         ÔòÁ                            ~~~~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'Subject'. [plugin angular-compiler]
+
+    src/app/app.spec.ts:18:26:
+      18 Ôöé             counter$: new Subject(),
+         ÔòÁ                           ~~~~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'Subject'. [plugin angular-compiler]
+
+    src/app/app.spec.ts:19:28:
+      19 Ôöé             lockState$: new Subject(),
+         ÔòÁ                             ~~~~~~~
+
+
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Opening Web Socket...
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: Connection closed to http://localhost:8080/ws-stomp
+[90mstdout[2m | unknown test
+[22m[39mSTOMP: STOMP: scheduling reconnection in 5000ms
+[33mÔØ»[39m Changes detected. Rebuilding...
+[32mÔ£ö[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m                          [2m | [22m[1mNames[22m                                     [2m | [22m [1mRaw size[22m
+[32mstyles.css[39m                                   [2m | [22m[2mstyles[22m                                    [2m | [22m[36m111.64 kB[39m[2m | [22m
+[32mspec-app-app.js[39m                              [2m | [22m[2mspec-app-app[22m                              [2m | [22m [36m29.29 kB[39m[2m | [22m
+[32mchunk-2DZ766GI.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m [36m14.08 kB[39m[2m | [22m
+[32mchunk-WDVXE4IV.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m [36m12.28 kB[39m[2m | [22m
+[32mchunk-XNDA3IA4.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m  [36m5.67 kB[39m[2m | [22m
+[32mspec-app-chat.component.js[39m                   [2m | [22m[2mspec-app-chat.component[22m                   [2m | [22m  [36m3.97 kB[39m[2m | [22m
+[32mchunk-UO6UOCGO.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m  [36m3.22 kB[39m[2m | [22m
+[32mspec-app-legacy-chat-chat-legacy.component.js[39m[2m | [22m[2mspec-app-legacy-chat-chat-legacy.component[22m[2m | [22m  [36m2.12 kB[39m[2m | [22m
+[32minit-testbed.js[39m                              [2m | [22m[2minit-testbed[22m                              [2m | [22m  [36m1.21 kB[39m[2m | [22m
+[32mvitest-mock-patch.js[39m                         [2m | [22m[2mvitest-mock-patch[22m                         [2m | [22m[36m704 bytes[39m[2m | [22m
+[32mpolyfills.js[39m                                 [2m | [22m[2mpolyfills[22m                                 [2m | [22m [36m82 bytes[39m[2m | [22m
+
+[1m [22m                                            [2m | [22m[1mInitial total[22m                             [2m | [22m[1m184.25 kB[22m
+
+Application bundle generation complete. [0.105 seconds] - 2026-03-09T14:12:31.158Z
+
+Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+    angular:polyfills:angular:polyfills:1:7:
+      1 Ôöé import './src/polyfills.ts';
+        ÔòÁ        ~~~~~~~~~~~~~~~~~~~~
+
+  The file will be bundled and included in the output but will not be type-checked at build time. To remove this message you can add the file to the TypeScript program via the 'files' or 'include' property.
+
+
+c[3J[1m[44m RERUN [49m[22m [34m[2mrerun test [22m[39m
+       [2m Test name pattern: [22m[34m/should render title/[39m
+
+ [2m[90mÔåô[39m[22m [30m[43m hello-angular (chromium) [49m[39m src/app/chat.component.spec.ts [2m([22m[2m8 tests[22m[2m | [22m[33m8 skipped[39m[2m)[22m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[33m1 skipped[39m[2m)[22m[32m 30[2mms[22m[39m
+ [2m[90mÔåô[39m[22m [30m[43m hello-angular (chromium) [49m[39m src/app/legacy-chat/chat-legacy.component.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[33m2 skipped[39m[2m)[22m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[2m | [22m[33m2 skipped[39m[90m (3)[39m
+[2m      Tests [22m [1m[32m1 passed[39m[22m[2m | [22m[33m11 skipped[39m[90m (12)[39m
+[2m   Start at [22m 15:12:31
+[2m   Duration [22m 238ms
+
+[1m[42m PASS [49m[22m [32mWaiting for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m
+stderr | unknown test
+Counter WebSocket error: Event {
+  "isTrusted": true,
+}
+stderr | unknown test
+Chat WebSocket error: Event {
+  "isTrusted": true,
+}
+stderr | unknown test
+Lock WebSocket error: Event {
+  "isTrusted": true,
+}
+[33mÔØ»[39m Changes detected. Rebuilding...
+[32mÔ£ö[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.102 seconds] - 2026-03-09T14:13:27.298Z
+
+X [ERROR] TS1136: Property assignment expected. [plugin angular-compiler]
+
+    src/app/app.spec.ts:17:8:
+      17 Ôöé         {
+         ÔòÁ         ^
+
+
+X [ERROR] TS2552: Cannot find name 'WebSocketService'. Did you mean 'WebSocketStompService'? [plugin angular-compiler]
+
+    src/app/app.spec.ts:28:19:
+      28 Ôöé           provide: WebSocketService,
+         ÔòÁ                    ~~~~~~~~~~~~~~~~
+
+
+[33mÔØ»[39m Changes detected. Rebuilding...
+[32mÔ£ö[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.125 seconds] - 2026-03-09T14:13:29.114Z
+
+X [ERROR] TS1136: Property assignment expected. [plugin angular-compiler]
+
+    src/app/app.spec.ts:18:8:
+      18 Ôöé         {
+         ÔòÁ         ^
+
+
+[33mÔØ»[39m Changes detected. Rebuilding...
+[32mÔ£ö[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m                          [2m | [22m[1mNames[22m                                     [2m | [22m [1mRaw size[22m
+[32mstyles.css[39m                                   [2m | [22m[2mstyles[22m                                    [2m | [22m[36m111.64 kB[39m[2m | [22m
+[32mspec-app-app.js[39m                              [2m | [22m[2mspec-app-app[22m                              [2m | [22m [36m29.56 kB[39m[2m | [22m
+[32mchunk-2DZ766GI.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m [36m14.08 kB[39m[2m | [22m
+[32mchunk-WDVXE4IV.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m [36m12.28 kB[39m[2m | [22m
+[32mchunk-XNDA3IA4.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m  [36m5.67 kB[39m[2m | [22m
+[32mspec-app-chat.component.js[39m                   [2m | [22m[2mspec-app-chat.component[22m                   [2m | [22m  [36m3.97 kB[39m[2m | [22m
+[32mchunk-UO6UOCGO.js[39m                            [2m | [22m[2m-[22m                                         [2m | [22m  [36m3.22 kB[39m[2m | [22m
+[32mspec-app-legacy-chat-chat-legacy.component.js[39m[2m | [22m[2mspec-app-legacy-chat-chat-legacy.component[22m[2m | [22m  [36m2.12 kB[39m[2m | [22m
+[32minit-testbed.js[39m                              [2m | [22m[2minit-testbed[22m                              [2m | [22m  [36m1.21 kB[39m[2m | [22m
+[32mvitest-mock-patch.js[39m                         [2m | [22m[2mvitest-mock-patch[22m                         [2m | [22m[36m704 bytes[39m[2m | [22m
+[32mpolyfills.js[39m                                 [2m | [22m[2mpolyfills[22m                                 [2m | [22m [36m82 bytes[39m[2m | [22m
+
+[1m [22m                                            [2m | [22m[1mInitial total[22m                             [2m | [22m[1m184.52 kB[22m
+
+Application bundle generation complete. [0.087 seconds] - 2026-03-09T14:13:35.701Z
+
+Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+    angular:polyfills:angular:polyfills:1:7:
+      1 Ôöé import './src/polyfills.ts';
+        ÔòÁ        ~~~~~~~~~~~~~~~~~~~~
+
+  The file will be bundled and included in the output but will not be type-checked at build time. To remove this message you can add the file to the TypeScript program via the 'files' or 'include' property.
+
+
+c[3J[1m[44m RERUN [49m[22m [34m[2mrerun test [22m[39m
+       [2m Test name pattern: [22m[34m/should render title/[39m
+
+stderr | src/app/app.spec.ts:46:3 > App > should render title
+[Error: Uncaught [object Object]]
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[33m1 skipped[39m[2m)[22m[33m 2392[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should render title [33m 2392[2mms[22m[39m
+ [2m[90mÔåô[39m[22m [30m[43m hello-angular (chromium) [49m[39m src/app/chat.component.spec.ts [2m([22m[2m8 tests[22m[2m | [22m[33m8 skipped[39m[2m)[22m
+ [2m[90mÔåô[39m[22m [30m[43m hello-angular (chromium) [49m[39m src/app/legacy-chat/chat-legacy.component.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[33m2 skipped[39m[2m)[22m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[2m | [22m[33m2 skipped[39m[90m (3)[39m
+[2m      Tests [22m [1m[32m1 passed[39m[22m[2m | [22m[33m11 skipped[39m[90m (12)[39m
+[2m   Start at [22m 15:13:35
+[2m   Duration [22m 2.61s
+
+[1m[42m PASS [49m[22m [32mWaiting for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m
+[33mÔØ»[39m Changes detected. Rebuilding...
+[32mÔ£ö[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m       [2m | [22m[1mRaw size[22m
+[32mspec-app-app.js[39m    [2m | [22m[2mspec-app-app[22m[2m | [22m[36m29.68 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.099 seconds] - 2026-03-09T14:14:10.922Z
+
+Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+    angular:polyfills:angular:polyfills:1:7:
+      1 Ôöé import './src/polyfills.ts';
+        ÔòÁ        ~~~~~~~~~~~~~~~~~~~~
+
+  The file will be bundled and included in the output but will not be type-checked at build time. To remove this message you can add the file to the TypeScript program via the 'files' or 'include' property.
+
+
+c[3J[1m[44m RERUN [49m[22m [34m[2mrerun test [22m[34mx6 [34m[39m
+       [2m Test name pattern: [22m[34m/should render title/[39m
+
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[33m1 skipped[39m[2m)[22m[32m 30[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m1 passed[39m[22m[2m | [22m[33m1 skipped[39m[90m (2)[39m
+[2m   Start at [22m 15:14:10
+[2m   Duration [22m 256ms
+
+[1m[42m PASS [49m[22m [32mWaiting for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m
+[33mÔØ»[39m Changes detected. Rebuilding...
+[32mÔ£ö[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m       [2m | [22m[1mRaw size[22m
+[32mspec-app-app.js[39m    [2m | [22m[2mspec-app-app[22m[2m | [22m[36m29.99 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.127 seconds] - 2026-03-09T14:36:06.963Z
+
+Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+    angular:polyfills:angular:polyfills:1:7:
+      1 Ôöé import './src/polyfills.ts';
+        ÔòÁ        ~~~~~~~~~~~~~~~~~~~~
+
+  The file will be bundled and included in the output but will not be type-checked at build time. To remove this message you can add the file to the TypeScript program via the 'files' or 'include' property.
+
+
+c[3J[1m[44m RERUN [49m[22m [34m[2mrerun test [22m[34mx7 [34m[39m
+       [2m Test name pattern: [22m[34m/should render title/[39m
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Unhandled Errors ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+
+Vitest caught 1 unhandled error during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Unhandled Error ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+Error: Orchestrator not found for session d9027ec9-316f-4348-8d6d-bad280ed628f. This is a bug in Vitest. Please, open a new issue with reproduction.
+ ÔØ» BrowserPool.getOrchestrator node_modules/vitest/dist/chunks/cli-api.B7PN_QUv.js:7202:28
+ ÔØ» BrowserPool.runNextTest node_modules/vitest/dist/chunks/cli-api.B7PN_QUv.js:7229:29
+ ÔØ» node_modules/vitest/dist/chunks/cli-api.B7PN_QUv.js:7160:10
+ ÔØ» BrowserPool.runTests node_modules/vitest/dist/chunks/cli-api.B7PN_QUv.js:7157:22
+ ÔØ» runTests node_modules/vitest/dist/chunks/cli-api.B7PN_QUv.js:7074:26
+ ÔØ» node_modules/vitest/dist/chunks/cli-api.B7PN_QUv.js:7087:53
+ ÔØ» runWorkspaceTests node_modules/vitest/dist/chunks/cli-api.B7PN_QUv.js:7087:35
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+
+
+[2m Test Files [22m [90m (1)[39m
+[2m      Tests [22m [2mno tests[22m
+[2m     Errors [22m [1m[31m1 error[39m[22m
+[2m   Start at [22m 15:36:06
+[2m   Duration [22m 0ms
+
+[1m[41m FAIL [49m[22m [31mTests failed. Watching for file changes...[39m
+       [2mpress [22m[1mh[22m[2m to show help[22m[2m, [22m[2mpress [22m[1mq[22m[2m to quit[22m
+[33mÔØ»[39m Changes detected. Rebuilding...
+[32mÔ£ö[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.493 seconds] - 2026-03-09T14:45:39.237Z
+
+Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+    angular:polyfills:angular:polyfills:1:7:
+      1 Ôöé import './src/polyfills.ts';
+        ÔòÁ        ~~~~~~~~~~~~~~~~~~~~
+
+  The file will be bundled and included in the output but will not be type-checked at build time. To remove this message you can add the file to the TypeScript program via the 'files' or 'include' property.
+
+
+X [ERROR] Could not resolve "C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/src/app/legacy-chat/chat-legacy.component.spec.ts"
+
+
+[31mCancelling test run. Press CTRL+c again to exit forcefully.
+[39m
