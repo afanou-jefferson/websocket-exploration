@@ -7,8 +7,8 @@ import { provideEffects, EffectsModule } from '@ngrx/effects';
 import { provideStoreDevtools } from '@ngrx/store-devtools';
 import { importProvidersFrom } from '@angular/core';
 import { routes } from './app.routes';
-import { newSyntaxReducer } from './new-syntax/new-syntax.reducer';
-import { oldSyntaxReducer } from './old-syntax/old-syntax.reducer';
+import { newSyntaxReducer } from './features/new-syntax/new-syntax.reducer';
+import { oldSyntaxReducer } from './features/old-syntax/old-syntax.reducer';
 import { textReducer } from './store/text.reducer';
 import { TextEffects } from './store/text.effects';
 

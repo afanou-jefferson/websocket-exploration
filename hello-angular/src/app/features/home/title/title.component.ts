@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { loadText } from '../store/text.reducer';
+import { loadText } from '../../../store/text.reducer';
 
 @Component({
   selector: 'app-title',

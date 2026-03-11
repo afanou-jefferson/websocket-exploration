@@ -4,8 +4,8 @@ import { TitleComponent } from './title.component';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { MatTabsModule } from '@angular/material/tabs';
-import { textReducer } from '../store/text.reducer';
-import { TextEffects } from '../store/text.effects';
+import { textReducer } from '../../../store/text.reducer';
+import { TextEffects } from '../../../store/text.effects';
 
 @NgModule({
   declarations: [TitleComponent],

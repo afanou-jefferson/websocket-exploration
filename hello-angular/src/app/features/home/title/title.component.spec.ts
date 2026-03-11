@@ -1,13 +1,13 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { TitleComponent } from './title.component';
-import { loadText, setText } from '../store/text.reducer';
+import { loadText, setText } from '../../../store/text.reducer';
 import { TitleModule } from './title.module';
 import { Store, StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { vi } from 'vitest';
-import { TextEffects } from '../store/text.effects';
-import { textReducer } from '../store/text.reducer';
+import { TextEffects } from '../../../store/text.effects';
+import { textReducer } from '../../../store/text.reducer';
 
 describe('TitleComponent', () => {
   let component: TitleComponent;

@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideStore } from '@ngrx/store';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { NewShallowParentComponent } from './new-shallow-parent.component';
-import { newSyntaxReducer } from './new-syntax.reducer';
+import { newSyntaxReducer } from '../new-syntax.reducer';
 
 describe('NewShallowParentComponent (Shallow Testing Strategy)', () => {
   let fixture: ComponentFixture<NewShallowParentComponent>;

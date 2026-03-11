@@ -2,9 +2,9 @@ import { Component, Input } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideStore, provideState } from '@ngrx/store';
 import { NewParentRealStoreComponent } from './new-parent-real-store.component';
-import { NewSyntaxModule } from './new-syntax.module';
+import { NewSyntaxModule } from '../new-syntax.module';
 import { NewChildComponent } from './new-child.component';
-import { newSyntaxReducer } from './new-syntax.reducer';
+import { newSyntaxReducer } from '../new-syntax.reducer';
 
 @Component({
   selector: 'app-new-child',
