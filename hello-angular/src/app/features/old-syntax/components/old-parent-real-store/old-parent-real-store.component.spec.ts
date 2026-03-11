@@ -1,8 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { StoreModule } from '@ngrx/store';
 import { OldParentRealStoreComponent } from './old-parent-real-store.component';
-import { OldSyntaxModule } from '../old-syntax.module';
-import { oldSyntaxReducer } from '../old-syntax.reducer';
+import { OldSyntaxModule } from '../../old-syntax.module';
+import { oldSyntaxReducer } from '../../old-syntax.reducer';
 
 describe('OldParentRealStoreComponent (Real Store Strategy)', () => {
   let fixture: ComponentFixture<OldParentRealStoreComponent>;

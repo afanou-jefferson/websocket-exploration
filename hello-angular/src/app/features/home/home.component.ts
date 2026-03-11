@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ChatComponent } from './chat/chat.component';
-import { ChatStompComponent } from './chat/chat-stomp.component';
+import { ChatComponent } from './chat/chat/chat.component';
+import { ChatStompComponent } from './chat/chat-stomp/chat-stomp.component';
 import { TitleModule } from './title/title.module';
 import { MatDividerModule } from '@angular/material/divider';
 
