@@ -2,16 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { provideState } from '@ngrx/store';
 import { newSyntaxReducer } from './new-syntax.reducer';
-import { NewRealStoreComponent } from './new-real-store.component';
-import { NewMockStoreComponent } from './new-mock-store.component';
+import { NewParentRealStoreComponent } from './new-parent-real-store.component';
+import { NewParentMockStoreComponent } from './new-parent-mock-store.component';
+import { NewChildComponent } from './new-child.component';
+import { NewShallowParentComponent } from './new-shallow-parent.component';
 
 @NgModule({
-  declarations: [NewRealStoreComponent, NewMockStoreComponent],
+  declarations: [NewParentRealStoreComponent, NewParentMockStoreComponent, NewChildComponent, NewShallowParentComponent],
   imports: [CommonModule],
-  providers: [
-    // [NEW SYNTAX] Lazily provides the feature state via dependency injection
-    provideState({ name: 'newFeature', reducer: newSyntaxReducer })
-  ],
-  exports: [NewRealStoreComponent, NewMockStoreComponent]
+  providers: [],
+  exports: [NewParentRealStoreComponent, NewParentMockStoreComponent, NewChildComponent, NewShallowParentComponent]
 })
 export class NewSyntaxModule { }

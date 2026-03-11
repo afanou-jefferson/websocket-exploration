@@ -3,13 +3,13 @@ import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-new-real-store',
+  selector: 'app-old-parent-real-store',
   standalone: false,
-  template: `<h3>New Real Store: {{ (state$ | async)?.value }}</h3>`
+  template: `<h3>Old Real Store: {{ (state$ | async)?.value }}</h3>`
 })
-export class NewRealStoreComponent {
+export class OldParentRealStoreComponent {
   state$: Observable<any>;
   constructor(private store: Store<any>) {
-    this.state$ = this.store.select('newFeature');
+    this.state$ = this.store.select('oldFeature');
   }
 }

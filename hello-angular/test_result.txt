@@ -1,0 +1,33 @@
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m            [2m | [22m [1mRaw size[22m
+[32mstyles.css[39m          [2m | [22m[2mstyles[22m           [2m | [22m[36m111.64 kB[39m[2m | [22m
+[32mspec-app-app.js[39m     [2m | [22m[2mspec-app-app[22m     [2m | [22m [36m53.05 kB[39m[2m | [22m
+[32mchunk-XNDA3IA4.js[39m   [2m | [22m[2m-[22m                [2m | [22m  [36m5.67 kB[39m[2m | [22m
+[32minit-testbed.js[39m     [2m | [22m[2minit-testbed[22m     [2m | [22m  [36m1.21 kB[39m[2m | [22m
+[32mvitest-mock-patch.js[39m[2m | [22m[2mvitest-mock-patch[22m[2m | [22m[36m704 bytes[39m[2m | [22m
+[32mpolyfills.js[39m        [2m | [22m[2mpolyfills[22m        [2m | [22m [36m82 bytes[39m[2m | [22m
+
+[1m [22m                   [2m | [22m[1mInitial total[22m    [2m | [22m[1m172.34 kB[22m
+
+Application bundle generation complete. [1.486 seconds] - 2026-03-11T20:59:07.541Z
+
+Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+    angular:polyfills:angular:polyfills:1:7:
+      1 Ôöé import './src/polyfills.ts';
+        ÔòÁ        ~~~~~~~~~~~~~~~~~~~~
+
+  The file will be bundled and included in the output but will not be type-checked at build time. To remove this message you can add the file to the TypeScript program via the 'files' or 'include' property.
+
+
+
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mC:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular[39m
+
+Port 63315 is in use, trying another one...
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 69[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m2 passed[39m[22m[90m (2)[39m
+[2m   Start at [22m 21:59:07
+[2m   Duration [22m 2.55s[2m (transform 0ms, setup 348ms, import 235ms, tests 69ms, environment 0ms)[22m
+

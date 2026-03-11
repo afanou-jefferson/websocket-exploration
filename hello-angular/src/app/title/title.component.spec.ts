@@ -6,6 +6,8 @@ import { Store, StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { vi } from 'vitest';
+import { TextEffects } from '../store/text.effects';
+import { textReducer } from '../store/text.reducer';
 
 describe('TitleComponent', () => {
   let component: TitleComponent;
@@ -17,8 +19,10 @@ describe('TitleComponent', () => {
       imports: [
         TitleModule, 
         NoopAnimationsModule,
-        StoreModule.forRoot({}), 
-        EffectsModule.forRoot([])
+        StoreModule.forRoot({}),
+        StoreModule.forFeature('text', textReducer),
+        EffectsModule.forRoot([]),
+        EffectsModule.forFeature([TextEffects])
       ],
       providers: []
     }).compileComponents();

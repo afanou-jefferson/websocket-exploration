@@ -11,9 +11,7 @@ import { TextEffects } from '../store/text.effects';
   declarations: [TitleComponent],
   imports: [
     CommonModule,
-    MatTabsModule,
-    StoreModule.forFeature('text', textReducer),
-    EffectsModule.forFeature([TextEffects])
+    MatTabsModule
   ],
   exports: [TitleComponent]
 })

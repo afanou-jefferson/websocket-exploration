@@ -2,16 +2,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { StoreModule } from '@ngrx/store';
 import { oldSyntaxReducer } from './old-syntax.reducer';
-import { OldRealStoreComponent } from './old-real-store.component';
-import { OldMockStoreComponent } from './old-mock-store.component';
+import { OldParentRealStoreComponent } from './old-parent-real-store.component';
+import { OldParentMockStoreComponent } from './old-parent-mock-store.component';
 
 @NgModule({
-  declarations: [OldRealStoreComponent, OldMockStoreComponent],
+  declarations: [OldParentRealStoreComponent, OldParentMockStoreComponent],
   imports: [
     CommonModule,
     // [OLD SYNTAX] Eagerly registers the feature at module compilation
     StoreModule.forFeature('oldFeature', oldSyntaxReducer)
   ],
-  exports: [OldRealStoreComponent, OldMockStoreComponent]
+  exports: [OldParentRealStoreComponent, OldParentMockStoreComponent]
 })
 export class OldSyntaxModule { }

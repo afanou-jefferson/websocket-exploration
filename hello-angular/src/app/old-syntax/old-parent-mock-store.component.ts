@@ -3,11 +3,11 @@ import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-old-real-store',
+  selector: 'app-old-parent-mock-store',
   standalone: false,
-  template: `<h3>Old Real Store: {{ (state$ | async)?.value }}</h3>`
+  template: `<h3>Old Mock Store: {{ (state$ | async)?.value }}</h3>`
 })
-export class OldRealStoreComponent {
+export class OldParentMockStoreComponent {
   state$: Observable<any>;
   constructor(private store: Store<any>) {
     this.state$ = this.store.select('oldFeature');

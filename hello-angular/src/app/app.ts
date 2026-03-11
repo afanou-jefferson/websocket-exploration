@@ -10,6 +10,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
 import { MatDividerModule } from '@angular/material/divider';
 import { TitleModule } from './title/title.module';
+import { NewSyntaxModule } from './new-syntax/new-syntax.module';
+import { OldSyntaxModule } from './old-syntax/old-syntax.module';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +24,9 @@ import { TitleModule } from './title/title.module';
     MatButtonModule,
     MatListModule,
     MatDividerModule,
-    TitleModule
+    TitleModule,
+    NewSyntaxModule,
+    OldSyntaxModule
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'

@@ -1,9 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideMockStore } from '@ngrx/store/testing';
-import { NewMockStoreComponent } from './new-mock-store.component';
+import { NewParentMockStoreComponent } from './new-parent-mock-store.component';
 
-describe('NewMockStoreComponent (Mock Store Strategy)', () => {
-  let fixture: ComponentFixture<NewMockStoreComponent>;
+describe('NewParentMockStoreComponent (Mock Store Strategy)', () => {
+  let fixture: ComponentFixture<NewParentMockStoreComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -22,7 +22,7 @@ describe('NewMockStoreComponent (Mock Store Strategy)', () => {
       // To use a MockStore inside a non-standalone module architecture, 
       // you must STILL isolate the component by declaring it directly rather 
       // than importing its host module:
-      declarations: [NewMockStoreComponent],
+      declarations: [NewParentMockStoreComponent],
       providers: [
         provideMockStore({
           initialState: { newFeature: { value: 'Mocked New Value' } }
@@ -30,7 +30,7 @@ describe('NewMockStoreComponent (Mock Store Strategy)', () => {
       ]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(NewMockStoreComponent);
+    fixture = TestBed.createComponent(NewParentMockStoreComponent);
     fixture.detectChanges();
   });
 

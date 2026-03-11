@@ -1,9 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideMockStore } from '@ngrx/store/testing';
-import { OldMockStoreComponent } from './old-mock-store.component';
+import { OldParentMockStoreComponent } from './old-parent-mock-store.component';
 
-describe('OldMockStoreComponent (Mock Store Strategy)', () => {
-  let fixture: ComponentFixture<OldMockStoreComponent>;
+describe('OldParentMockStoreComponent (Mock Store Strategy)', () => {
+  let fixture: ComponentFixture<OldParentMockStoreComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -21,7 +21,7 @@ describe('OldMockStoreComponent (Mock Store Strategy)', () => {
       // `provideMockStore()` does not create a real root store, so `.forFeature` 
       // would crash the test!
       // Therefore, we MUST declare the component directly to isolate it from its own module.
-      declarations: [OldMockStoreComponent],
+      declarations: [OldParentMockStoreComponent],
       providers: [
         provideMockStore({
           initialState: { oldFeature: { value: 'Mocked Old Value' } }
@@ -29,7 +29,7 @@ describe('OldMockStoreComponent (Mock Store Strategy)', () => {
       ]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(OldMockStoreComponent);
+    fixture = TestBed.createComponent(OldParentMockStoreComponent);
     fixture.detectChanges();
   });
 

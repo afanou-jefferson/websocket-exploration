@@ -1,10 +1,11 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { StoreModule } from '@ngrx/store';
-import { OldRealStoreComponent } from './old-real-store.component';
+import { OldParentRealStoreComponent } from './old-parent-real-store.component';
 import { OldSyntaxModule } from './old-syntax.module';
+import { oldSyntaxReducer } from './old-syntax.reducer';
 
-describe('OldRealStoreComponent (Real Store Strategy)', () => {
-  let fixture: ComponentFixture<OldRealStoreComponent>;
+describe('OldParentRealStoreComponent (Real Store Strategy)', () => {
+  let fixture: ComponentFixture<OldParentRealStoreComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -21,11 +22,12 @@ describe('OldRealStoreComponent (Real Store Strategy)', () => {
         // Because OldSyntaxModule uses `StoreModule.forFeature`, it forces Angular 
         // to look for the Root Store during compilation.
         // We MUST provide StoreModule.forRoot({}) here, otherwise it throws NG0201!
-        StoreModule.forRoot({})
+        StoreModule.forRoot({}),
+        StoreModule.forFeature('oldFeature', oldSyntaxReducer)
       ]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(OldRealStoreComponent);
+    fixture = TestBed.createComponent(OldParentRealStoreComponent);
     fixture.detectChanges();
   });
 
