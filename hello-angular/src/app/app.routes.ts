@@ -13,5 +13,9 @@ export const routes: Routes = [
   {
     path: 'old-syntax',
     loadChildren: () => import('./features/old-syntax/old-syntax.module').then(m => m.OldSyntaxModule)
+  },
+  {
+    path: 'dialog-demo',
+    loadChildren: () => import('./features/dialog-demo/dialog-demo.module').then(m => m.DialogDemoModule)
   }
 ];
