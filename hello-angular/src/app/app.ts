@@ -9,6 +9,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
 import { MatDividerModule } from '@angular/material/divider';
+import { TitleModule } from './title/title.module';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,8 @@ import { MatDividerModule } from '@angular/material/divider';
     MatCardModule,
     MatButtonModule,
     MatListModule,
-    MatDividerModule
+    MatDividerModule,
+    TitleModule
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'

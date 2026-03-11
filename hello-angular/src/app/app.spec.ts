@@ -3,11 +3,16 @@ import { App } from './app';
 import { provideHttpClient } from '@angular/common/http';
 import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { StoreModule } from '@ngrx/store';
+import { EffectsModule } from '@ngrx/effects';
+import { TitleModule } from './title/title.module';
 describe('App', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [App, BrowserAnimationsModule],
+      imports: [
+        App, BrowserAnimationsModule, TitleModule,
+        StoreModule.forRoot({}), EffectsModule.forRoot([])
+      ],
       providers: [
         provideHttpClient(),
         provideHttpClientTesting(),
