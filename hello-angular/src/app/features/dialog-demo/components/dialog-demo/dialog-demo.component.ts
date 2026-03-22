@@ -6,9 +6,9 @@ import { DialogDemoService } from '../../dialog-demo.service';
 @Component({
   selector: 'app-dialog-demo',
   standalone: false,
-  // 🔑 The service is scoped to THIS component's injector.
-  // Every child (including the dialog when we pass the instance)
-  // will reference the same object in memory.
+  // Le service est déclaré dans les 'providers' du composant (Component-level scoping).
+  // Cela crée une instance unique du service pour ce composant et ses futurs enfants.
+  // Contrairement à 'providedIn: root', cette instance sera détruite quand le composant le sera
   providers: [DialogDemoService],
   template: `
     <div class="dialog-demo-container">
@@ -30,41 +30,18 @@ import { DialogDemoService } from '../../dialog-demo.service';
       </button>
     </div>
   `,
-  styles: [`
-    .dialog-demo-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 48px 24px;
-      gap: 20px;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    h2 { margin: 0; }
-    .subtitle { color: #666; text-align: center; }
-    .signal-box {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background: #f5f5f5;
-      border-radius: 8px;
-      padding: 16px 28px;
-      gap: 6px;
-      min-width: 300px;
-    }
-    .signal-label { font-size: 0.75rem; color: #999; font-family: monospace; }
-    .signal-value { font-size: 1.25rem; font-weight: 500; color: #3f51b5; }
-  `]
+  styleUrls: ['./dialog-demo.component.scss']
 })
 export class DialogDemoComponent {
   protected service = inject(DialogDemoService);
   private dialog = inject(MatDialog);
 
   openDialog(): void {
-    // In this version of Angular Material, MatDialogConfig does not have a 'providers' option.
-    // The idiomatic way to share a reactive service instance with a dialog is to pass it
-    // as 'data' — the dialog injects it via MAT_DIALOG_DATA.
-    // This preserves full reactivity: both sides share the same object reference in memory.
+    // Dans cette version d'Angular Material (20 chez toi normalement), 'MatDialogConfig' ne dispose pas de l'option 'providers'.
+    // C'était en preview/expérimental en v17 c'est pour ça que copilot a "menti" tout à l'heure
+    // La solution c'est de passer l'instance du service elle-même dans l'objet 'data'.
+    // Ainsi, la modale et ce composant partagent la même référence d'objet en mémoire ( le bean/service en java en quelque sorte )
+    // Ca semble un peu dirty mais c'est le plus simple pour l'instant
     this.dialog.open(GreetingDialogComponent, {
       width: '420px',
       data: this.service

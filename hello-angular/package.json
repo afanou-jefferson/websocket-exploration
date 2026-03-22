@@ -36,6 +36,9 @@
     "@ngrx/effects": "^21.0.1",
     "@ngrx/store": "^21.0.1",
     "@stomp/stompjs": "^7.0.0",
+    "angular-calendar": "^0.32.0",
+    "angular-resizable-element": "^8.0.3",
+    "date-fns": "^4.1.0",
     "rxjs": "~7.8.0",
     "sockjs-client": "^1.6.1",
     "tslib": "^2.3.0"
@@ -48,6 +51,7 @@
     "@types/sockjs-client": "^1.5.4",
     "@vitest/browser": "^4.0.18",
     "@vitest/browser-playwright": "^4.0.18",
+    "@vitest/coverage-v8": "^4.0.18",
     "@vitest/ui": "^4.0.18",
     "jsdom": "^27.4.0",
     "playwright": "^1.58.2",

@@ -27,7 +27,7 @@
 
 [1m [22m                                                                                               [2m | [22m[1mInitial total[22m                                                                                [2m | [22m[1m208.00 kB[22m
 
-Application bundle generation complete. [1.660 seconds] - 2026-03-15T14:12:02.050Z
+Application bundle generation complete. [1.614 seconds] - 2026-03-15T14:15:32.863Z
 
 Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
 
@@ -43,42 +43,21 @@ Application bundle generation complete. [1.660 seconds] - 2026-03-15T14:12:02.05
 
 Port 63315 is in use, trying another one...
 Port 63316 is in use, trying another one...
- [31mÔØ»[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-shallow-parent/new-shallow-parent.component.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 21[2mms[22m[39m
-     [32mÔ£ô[39m should create and read from the store without crashing on unknown child tags[32m 15[2mms[22m[39m
-[31m     [31m├ù[31m should format the date using calendarDate pipe[39m[32m 5[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.browser.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 6057[2mms[22m[39m
-     [33m[2mÔ£ô[22m[39m renders with the identity as title and is visible in the browser [33m 2032[2mms[22m[39m
-     [33m[2mÔ£ô[22m[39m renders messages received from the WebSocket [33m 2012[2mms[22m[39m
-     [33m[2mÔ£ô[22m[39m shows "Locked by" status when another user holds the lock [33m 2013[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.spec.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 38[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/title/title.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 31[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.browser.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 6082[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders with the identity as title and is visible in the browser [33m 2044[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders messages received from the WebSocket [33m 2020[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shows "Locked by" status when another user holds the lock [33m 2017[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.spec.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 39[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/title/title.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 32[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-shallow-parent/new-shallow-parent.component.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-real-store/new-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 3[2mms[22m[39m
  [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-real-store/old-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 4[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-real-store/new-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 4[2mms[22m[39m
  [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-mock-store/old-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 2[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-mock-store/new-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 1[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-mock-store/new-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 2[2mms[22m[39m
 
-ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Failed Tests 1 ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
-
- FAIL   hello-angular (chromium)  src/app/features/new-syntax/components/new-shallow-parent/new-shallow-parent.component.spec.ts:54:3 > NewShallowParentComponent (Shallow Testing Strategy) > should format the date using calendarDate pipe
-AssertionError: expected 'Calendar Date: March 2026' to contain 'January 2024'
-
-Expected: "January 2024"
-Received: "Calendar Date: March 2026"
-
- ÔØ» src/app/features/new-syntax/components/new-shallow-parent/new-shallow-parent.component.spec.ts:63:53
-     61|     
-     62|     // 'monthViewTitle' formats as "Month Year" by default
-     63|     expect(compiled.querySelector('p')?.textContent).toContain('JanuarÔÇª
-       |                                                     ^
-     64|   });
-     65| });
-
-ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[1/1]ÔÄ»
-
-
-[2m Test Files [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m8 passed[39m[22m[90m (9)[39m
-[2m      Tests [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m21 passed[39m[22m[90m (22)[39m
-[2m   Start at [22m 15:12:02
-[2m   Duration [22m 9.19s[2m (transform 0ms, setup 721ms, import 327ms, tests 6.17s, environment 0ms)[22m
+[2m Test Files [22m [1m[32m9 passed[39m[22m[90m (9)[39m
+[2m      Tests [22m [1m[32m22 passed[39m[22m[90m (22)[39m
+[2m   Start at [22m 15:15:33
+[2m   Duration [22m 15.67s[2m (transform 0ms, setup 800ms, import 360ms, tests 6.18s, environment 0ms)[22m
 

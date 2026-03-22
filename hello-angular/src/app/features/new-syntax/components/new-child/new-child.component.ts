@@ -4,10 +4,14 @@ import { NewChildService } from './new-child.service';
 @Component({
   selector: 'app-new-child',
   standalone: false,
-  template: `<div>Child received state: {{ stateValue }} (Service data: {{ serviceData }})</div>`
+  template: `
+    <div>Child received state: {{ stateValue }} (Service data: {{ serviceData }})</div>
+    <p>Child Calendar Date: {{ viewDate | calendarDate: 'monthViewTitle' : 'en' }}</p>
+  `
 })
 export class NewChildComponent implements OnInit {
   @Input() stateValue: any;
+  viewDate: Date = new Date();
   serviceData = '';
 
   constructor(private childService: NewChildService) {}

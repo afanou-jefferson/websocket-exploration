@@ -30,15 +30,12 @@ import { DialogDemoService } from '../../dialog-demo.service';
       <button mat-stroked-button (click)="close()">Close</button>
     </mat-dialog-actions>
   `,
-  styles: [`
-    .hint { color: #666; font-size: 0.9rem; margin-bottom: 16px; }
-    .preview { font-size: 0.9rem; color: #3f51b5; margin-top: 4px; }
-  `]
+  styleUrls: ['./greeting-dialog.component.scss']
 })
 export class GreetingDialogComponent {
-  // The dialog receives the DialogDemoService *instance* via MAT_DIALOG_DATA.
-  // Both the parent component and this dialog share the exact same object reference,
-  // so mutating the signal here is immediately visible in the parent.
+  // 🔑 La modale reçoit l'instance du service 'DialogDemoService' via 'MAT_DIALOG_DATA'.
+  // Comme les deux composants partagent la même référence mémoire, toute modification
+  // du Signal ici est immédiatement répercutée sur l'interface du parent.
   protected service = inject<DialogDemoService>(MAT_DIALOG_DATA);
   private dialogRef = inject(MatDialogRef<GreetingDialogComponent>);
 

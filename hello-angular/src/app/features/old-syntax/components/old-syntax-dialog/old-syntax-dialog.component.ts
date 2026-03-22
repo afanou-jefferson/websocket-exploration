@@ -32,10 +32,7 @@ import { OldSyntaxDialogService } from '../../old-syntax-dialog.service';
       <button mat-stroked-button (click)="close()">Close</button>
     </mat-dialog-actions>
   `,
-  styles: [`
-    .hint { color: #666; font-size: 0.875rem; margin-bottom: 16px; }
-    .preview { font-size: 0.875rem; color: #3f51b5; margin-top: 4px; }
-  `]
+  styleUrls: ['./old-syntax-dialog.component.scss']
 })
 export class OldSyntaxDialogComponent {
   // The component receives the module-level service instance via MAT_DIALOG_DATA,

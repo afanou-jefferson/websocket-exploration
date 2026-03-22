@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { provideState } from '@ngrx/store';
+import { CalendarModule } from 'angular-calendar';
 import { newSyntaxReducer } from './new-syntax.reducer';
 import { NewParentRealStoreComponent } from './components/new-parent-real-store/new-parent-real-store.component';
 import { NewParentMockStoreComponent } from './components/new-parent-mock-store/new-parent-mock-store.component';
@@ -12,8 +13,10 @@ import { NewShallowParentComponent } from './components/new-shallow-parent/new-s
   declarations: [NewParentRealStoreComponent, NewParentMockStoreComponent, NewChildComponent, NewShallowParentComponent],
   imports: [
     CommonModule,
+    CalendarModule,
     RouterModule.forChild([
-      { path: '', component: NewParentRealStoreComponent }
+      { path: '', component: NewParentRealStoreComponent },
+      { path: 'shallow', component: NewShallowParentComponent }
     ])
   ],
   providers: [],

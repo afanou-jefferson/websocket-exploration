@@ -12,11 +12,11 @@
 [32mspec-app-features-new-syntax-components-new-parent-real-store-new-parent-real-store.component.js[39m[2m | [22m[2mspec-app-features-new-syntax-components-new-parent-real-store-new-parent-real-store.component[22m[2m | [22m  [36m9.24 kB[39m[2m | [22m
 [32mspec-app-features-home-title-title.component.js[39m                                                 [2m | [22m[2mspec-app-features-home-title-title.component[22m                                                 [2m | [22m  [36m8.91 kB[39m[2m | [22m
 [32mspec-app-app.js[39m                                                                                 [2m | [22m[2mspec-app-app[22m                                                                                 [2m | [22m  [36m8.54 kB[39m[2m | [22m
-[32mchunk-BKQOOHLE.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m7.34 kB[39m[2m | [22m
+[32mchunk-HWE4SFDI.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m7.38 kB[39m[2m | [22m
 [32mchunk-XNDA3IA4.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m5.67 kB[39m[2m | [22m
 [32mspec-app-features-home-chat-chat-chat.component.js[39m                                              [2m | [22m[2mspec-app-features-home-chat-chat-chat.component[22m                                              [2m | [22m  [36m4.00 kB[39m[2m | [22m
 [32mspec-app-features-home-chat-chat-chat.component.browser.js[39m                                      [2m | [22m[2mspec-app-features-home-chat-chat-chat.component.browser[22m                                      [2m | [22m  [36m3.74 kB[39m[2m | [22m
-[32mspec-app-features-new-syntax-components-new-shallow-parent-new-shallow-parent.component.js[39m      [2m | [22m[2mspec-app-features-new-syntax-components-new-shallow-parent-new-shallow-parent.component[22m      [2m | [22m  [36m3.11 kB[39m[2m | [22m
+[32mspec-app-features-new-syntax-components-new-shallow-parent-new-shallow-parent.component.js[39m      [2m | [22m[2mspec-app-features-new-syntax-components-new-shallow-parent-new-shallow-parent.component[22m      [2m | [22m  [36m2.98 kB[39m[2m | [22m
 [32mchunk-YT4LOND6.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m2.53 kB[39m[2m | [22m
 [32mchunk-5R5DA3W4.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m2.53 kB[39m[2m | [22m
 [32mspec-app-features-new-syntax-components-new-parent-mock-store-new-parent-mock-store.component.js[39m[2m | [22m[2mspec-app-features-new-syntax-components-new-parent-mock-store-new-parent-mock-store.component[22m[2m | [22m  [36m2.47 kB[39m[2m | [22m
@@ -25,9 +25,9 @@
 [32mvitest-mock-patch.js[39m                                                                            [2m | [22m[2mvitest-mock-patch[22m                                                                            [2m | [22m[36m704 bytes[39m[2m | [22m
 [32mpolyfills.js[39m                                                                                    [2m | [22m[2mpolyfills[22m                                                                                    [2m | [22m [36m82 bytes[39m[2m | [22m
 
-[1m [22m                                                                                               [2m | [22m[1mInitial total[22m                                                                                [2m | [22m[1m208.00 kB[22m
+[1m [22m                                                                                               [2m | [22m[1mInitial total[22m                                                                                [2m | [22m[1m207.90 kB[22m
 
-Application bundle generation complete. [1.660 seconds] - 2026-03-15T14:12:02.050Z
+Application bundle generation complete. [1.633 seconds] - 2026-03-15T15:21:14.980Z
 
 Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
 
@@ -41,44 +41,24 @@ Application bundle generation complete. [1.660 seconds] - 2026-03-15T14:12:02.05
 
 [1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mC:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular[39m
 
+[2m16:21:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because vite config has changed
 Port 63315 is in use, trying another one...
 Port 63316 is in use, trying another one...
- [31mÔØ»[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-shallow-parent/new-shallow-parent.component.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 21[2mms[22m[39m
-     [32mÔ£ô[39m should create and read from the store without crashing on unknown child tags[32m 15[2mms[22m[39m
-[31m     [31m├ù[31m should format the date using calendarDate pipe[39m[32m 5[2mms[22m[39m
  [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.browser.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 6057[2mms[22m[39m
      [33m[2mÔ£ô[22m[39m renders with the identity as title and is visible in the browser [33m 2032[2mms[22m[39m
-     [33m[2mÔ£ô[22m[39m renders messages received from the WebSocket [33m 2012[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders messages received from the WebSocket [33m 2011[2mms[22m[39m
      [33m[2mÔ£ô[22m[39m shows "Locked by" status when another user holds the lock [33m 2013[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.spec.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 38[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/title/title.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.spec.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 40[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/title/title.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 30[2mms[22m[39m
  [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 10[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-real-store/old-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 4[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-real-store/new-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 4[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-mock-store/old-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 2[2mms[22m[39m
- [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-mock-store/new-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 1[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-real-store/old-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-real-store/new-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-shallow-parent/new-shallow-parent.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-mock-store/new-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-mock-store/old-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 1[2mms[22m[39m
 
-ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Failed Tests 1 ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
-
- FAIL   hello-angular (chromium)  src/app/features/new-syntax/components/new-shallow-parent/new-shallow-parent.component.spec.ts:54:3 > NewShallowParentComponent (Shallow Testing Strategy) > should format the date using calendarDate pipe
-AssertionError: expected 'Calendar Date: March 2026' to contain 'January 2024'
-
-Expected: "January 2024"
-Received: "Calendar Date: March 2026"
-
- ÔØ» src/app/features/new-syntax/components/new-shallow-parent/new-shallow-parent.component.spec.ts:63:53
-     61|     
-     62|     // 'monthViewTitle' formats as "Month Year" by default
-     63|     expect(compiled.querySelector('p')?.textContent).toContain('JanuarÔÇª
-       |                                                     ^
-     64|   });
-     65| });
-
-ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[1/1]ÔÄ»
-
-
-[2m Test Files [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m8 passed[39m[22m[90m (9)[39m
-[2m      Tests [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m21 passed[39m[22m[90m (22)[39m
-[2m   Start at [22m 15:12:02
-[2m   Duration [22m 9.19s[2m (transform 0ms, setup 721ms, import 327ms, tests 6.17s, environment 0ms)[22m
+[2m Test Files [22m [1m[32m9 passed[39m[22m[90m (9)[39m
+[2m      Tests [22m [1m[32m21 passed[39m[22m[90m (21)[39m
+[2m   Start at [22m 16:21:15
+[2m   Duration [22m 9.72s[2m (transform 0ms, setup 738ms, import 360ms, tests 6.15s, environment 0ms)[22m
 

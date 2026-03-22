@@ -11,6 +11,8 @@ import { newSyntaxReducer } from './features/new-syntax/new-syntax.reducer';
 import { oldSyntaxReducer } from './features/old-syntax/old-syntax.reducer';
 import { textReducer } from './store/text.reducer';
 import { TextEffects } from './store/text.effects';
+import { CalendarModule, DateAdapter } from 'angular-calendar';
+import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -23,7 +25,11 @@ export const appConfig: ApplicationConfig = {
     provideEffects([TextEffects]),
     { provide: StoreRootModule, useValue: {} },
     importProvidersFrom(
-      EffectsModule.forRoot([])
+      EffectsModule.forRoot([]),
+      CalendarModule.forRoot({
+        provide: DateAdapter,
+        useFactory: adapterFactory,
+      })
     ),
     provideStoreDevtools({ maxAge: 25, logOnly: !isDevMode() })
   ]
