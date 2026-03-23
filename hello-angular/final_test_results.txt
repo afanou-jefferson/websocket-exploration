@@ -1,0 +1,510 @@
+
+> hello-angular@0.0.0 test
+> ng test --coverage --watch=false --headless=true
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[33mÔØ»[39m Building...
+[32mÔ£ö[39m Building...
+[1mInitial chunk files[22m                                                                             [2m | [22m[1mNames[22m                                                                                        [2m | [22m [1mRaw size[22m
+[32mstyles.css[39m                                                                                      [2m | [22m[2mstyles[22m                                                                                       [2m | [22m[36m111.64 kB[39m[2m | [22m
+[32mspec-app-features-old-syntax-components-old-parent-real-store-old-parent-real-store.component.js[39m[2m | [22m[2mspec-app-features-old-syntax-components-old-parent-real-store-old-parent-real-store.component[22m[2m | [22m [36m18.32 kB[39m[2m | [22m
+[32mchunk-F2XJZERO.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m [36m15.53 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-04-child-component-mock-dashboard.component.js[39m                [2m | [22m[2mspec-app-features-vitest-tutorial-04-child-component-mock-dashboard.component[22m                [2m | [22m [36m11.28 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-08-reactive-forms-login.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-08-reactive-forms-login.component[22m                          [2m | [22m [36m11.08 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-17-mat-table-user-table.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-17-mat-table-user-table.component[22m                          [2m | [22m [36m11.01 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-18-mat-stepper-onboarding.component.js[39m                        [2m | [22m[2mspec-app-features-vitest-tutorial-18-mat-stepper-onboarding.component[22m                        [2m | [22m [36m10.78 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-07-ngrx-standalone-ngrx-counter.component.js[39m                  [2m | [22m[2mspec-app-features-vitest-tutorial-07-ngrx-standalone-ngrx-counter.component[22m                  [2m | [22m [36m10.07 kB[39m[2m | [22m
+[32mspec-app-features-new-syntax-components-new-parent-real-store-new-parent-real-store.component.js[39m[2m | [22m[2mspec-app-features-new-syntax-components-new-parent-real-store-new-parent-real-store.component[22m[2m | [22m  [36m9.24 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-23-table-entity-inventory.component.js[39m                        [2m | [22m[2mspec-app-features-vitest-tutorial-23-table-entity-inventory.component[22m                        [2m | [22m  [36m9.18 kB[39m[2m | [22m
+[32mspec-app-features-home-title-title.component.js[39m                                                 [2m | [22m[2mspec-app-features-home-title-title.component[22m                                                 [2m | [22m  [36m8.91 kB[39m[2m | [22m
+[32mspec-app-app.js[39m                                                                                 [2m | [22m[2mspec-app-app[22m                                                                                 [2m | [22m  [36m8.59 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-03-service-mock-counter.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-03-service-mock-counter.component[22m                          [2m | [22m  [36m8.48 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-15-mat-dialog-dialog.js[39m                                       [2m | [22m[2mspec-app-features-vitest-tutorial-15-mat-dialog-dialog[22m                                       [2m | [22m  [36m8.47 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-20-mat-select-cdk-priority-select.component.js[39m                [2m | [22m[2mspec-app-features-vitest-tutorial-20-mat-select-cdk-priority-select.component[22m                [2m | [22m  [36m8.06 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-19-mat-autocomplete-city-search.component.js[39m                  [2m | [22m[2mspec-app-features-vitest-tutorial-19-mat-autocomplete-city-search.component[22m                  [2m | [22m  [36m7.59 kB[39m[2m | [22m
+[32mchunk-HWE4SFDI.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m7.38 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-14-ngrx-router-store-breadcrumb.component.js[39m                  [2m | [22m[2mspec-app-features-vitest-tutorial-14-ngrx-router-store-breadcrumb.component[22m                  [2m | [22m  [36m7.26 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-21-form-ngrx-search-bar.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-21-form-ngrx-search-bar.component[22m                          [2m | [22m  [36m7.08 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-28-custom-directive-highlight.directive.js[39m                    [2m | [22m[2mspec-app-features-vitest-tutorial-28-custom-directive-highlight.directive[22m                    [2m | [22m  [36m6.73 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-22-dialog-ngrx-delete-button.component.js[39m                     [2m | [22m[2mspec-app-features-vitest-tutorial-22-dialog-ngrx-delete-button.component[22m                     [2m | [22m  [36m6.23 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-12-ngrx-component-store-todo.store.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-12-ngrx-component-store-todo.store[22m                         [2m | [22m  [36m6.22 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-26-defer-blocks-lazy-profile.component.js[39m                     [2m | [22m[2mspec-app-features-vitest-tutorial-26-defer-blocks-lazy-profile.component[22m                     [2m | [22m  [36m6.03 kB[39m[2m | [22m
+[32mchunk-XNDA3IA4.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m5.67 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-06-router-nav.component.js[39m                                    [2m | [22m[2mspec-app-features-vitest-tutorial-06-router-nav.component[22m                                    [2m | [22m  [36m5.58 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-16-mat-snackbar-notifier.component.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-16-mat-snackbar-notifier.component[22m                         [2m | [22m  [36m5.46 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-29-async-pipe-live-clock.component.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-29-async-pipe-live-clock.component[22m                         [2m | [22m  [36m5.25 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-09-ngrx-effects-notification.effects.js[39m                       [2m | [22m[2mspec-app-features-vitest-tutorial-09-ngrx-effects-notification.effects[22m                       [2m | [22m  [36m4.86 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-02-standalone-component-basic-greeting.component.js[39m           [2m | [22m[2mspec-app-features-vitest-tutorial-02-standalone-component-basic-greeting.component[22m           [2m | [22m  [36m4.86 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-24-route-guard-auth.guard.js[39m                                  [2m | [22m[2mspec-app-features-vitest-tutorial-24-route-guard-auth.guard[22m                                  [2m | [22m  [36m4.55 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-10-ngrx-selectors-cart.selectors.js[39m                           [2m | [22m[2mspec-app-features-vitest-tutorial-10-ngrx-selectors-cart.selectors[22m                           [2m | [22m  [36m4.42 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-05-http-service-user-api.service.js[39m                           [2m | [22m[2mspec-app-features-vitest-tutorial-05-http-service-user-api.service[22m                           [2m | [22m  [36m4.24 kB[39m[2m | [22m
+[32mspec-app-features-home-chat-chat-chat.component.js[39m                                              [2m | [22m[2mspec-app-features-home-chat-chat-chat.component[22m                                              [2m | [22m  [36m4.00 kB[39m[2m | [22m
+[32mchunk-5OLXPXBD.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m3.86 kB[39m[2m | [22m
+[32mspec-app-features-home-chat-chat-chat.component.browser.js[39m                                      [2m | [22m[2mspec-app-features-home-chat-chat-chat.component.browser[22m                                      [2m | [22m  [36m3.74 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-25-signals-temperature.store.js[39m                               [2m | [22m[2mspec-app-features-vitest-tutorial-25-signals-temperature.store[22m                               [2m | [22m  [36m3.68 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-13-ngrx-signal-store-theme.store.js[39m                           [2m | [22m[2mspec-app-features-vitest-tutorial-13-ngrx-signal-store-theme.store[22m                           [2m | [22m  [36m3.33 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-27-http-interceptor-auth.interceptor.js[39m                       [2m | [22m[2mspec-app-features-vitest-tutorial-27-http-interceptor-auth.interceptor[22m                       [2m | [22m  [36m3.23 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-11-ngrx-entity-products.store.js[39m                              [2m | [22m[2mspec-app-features-vitest-tutorial-11-ngrx-entity-products.store[22m                              [2m | [22m  [36m3.04 kB[39m[2m | [22m
+[32mspec-app-features-new-syntax-components-new-shallow-parent-new-shallow-parent.component.js[39m      [2m | [22m[2mspec-app-features-new-syntax-components-new-shallow-parent-new-shallow-parent.component[22m      [2m | [22m  [36m2.98 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-30-error-boundary-app-error-handler.js[39m                        [2m | [22m[2mspec-app-features-vitest-tutorial-30-error-boundary-app-error-handler[22m                        [2m | [22m  [36m2.92 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-01-pure-service-calculator.service.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-01-pure-service-calculator.service[22m                         [2m | [22m  [36m2.82 kB[39m[2m | [22m
+[32mchunk-YT4LOND6.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m2.53 kB[39m[2m | [22m
+[32mchunk-5R5DA3W4.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m2.53 kB[39m[2m | [22m
+[32mspec-app-features-new-syntax-components-new-parent-mock-store-new-parent-mock-store.component.js[39m[2m | [22m[2mspec-app-features-new-syntax-components-new-parent-mock-store-new-parent-mock-store.component[22m[2m | [22m  [36m2.47 kB[39m[2m | [22m
+[32mspec-app-features-old-syntax-components-old-parent-mock-store-old-parent-mock-store.component.js[39m[2m | [22m[2mspec-app-features-old-syntax-components-old-parent-mock-store-old-parent-mock-store.component[22m[2m | [22m  [36m2.43 kB[39m[2m | [22m
+[32mchunk-7CCSJABM.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m1.51 kB[39m[2m | [22m
+[32minit-testbed.js[39m                                                                                 [2m | [22m[2minit-testbed[22m                                                                                 [2m | [22m  [36m1.21 kB[39m[2m | [22m
+[32mvitest-mock-patch.js[39m                                                                            [2m | [22m[2mvitest-mock-patch[22m                                                                            [2m | [22m[36m704 bytes[39m[2m | [22m
+[32mpolyfills.js[39m                                                                                    [2m | [22m[2mpolyfills[22m                                                                                    [2m | [22m [36m82 bytes[39m[2m | [22m
+
+[1m [22m                                                                                               [2m | [22m[1mInitial total[22m                                                                                [2m | [22m[1m407.10 kB[22m
+
+Application bundle generation complete. [2.584 seconds] - 2026-03-23T05:51:07.082Z
+
+Ôû▓ [WARNING] NG8113: RouterLink is not used within the template of BreadcrumbComponent [plugin angular-compiler]
+
+    src/app/features/vitest-tutorial/14-ngrx-router-store/breadcrumb.component.ts:10:26:
+      10 Ôöé   imports: [CommonModule, RouterLink, RouterLinkActive],
+         ÔòÁ                           ~~~~~~~~~~
+
+
+Ôû▓ [WARNING] NG8113: RouterLinkActive is not used within the template of BreadcrumbComponent [plugin angular-compiler]
+
+    src/app/features/vitest-tutorial/14-ngrx-router-store/breadcrumb.component.ts:10:38:
+      10 Ôöé   imports: [CommonModule, RouterLink, RouterLinkActive],
+         ÔòÁ                                       ~~~~~~~~~~~~~~~~
+
+
+Ôû▓ [WARNING] NG8107: NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. Find more at https://v21.angular.dev/extended-diagnostics/NG8107 [plugin angular-compiler]
+
+    src/app/features/vitest-tutorial/23-table-entity/inventory.component.ts:26:22:
+      26 Ôöé     @if ((products()?.length ?? 0) === 0) {
+         ÔòÁ                       ~~~~~~
+
+
+Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+    angular:polyfills:angular:polyfills:1:7:
+      1 Ôöé import './src/polyfills.ts';
+        ÔòÁ        ~~~~~~~~~~~~~~~~~~~~
+
+  The file will be bundled and included in the output but will not be type-checked at build time. To remove this message you can add the file to the TypeScript program via the 'files' or 'include' property.
+
+
+
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mC:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular[39m
+      [2mCoverage enabled with [22m[33mv8[39m
+
+[2m06:51:07[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because vite config has changed
+Failed to resolve dependency: zone.js/testing, present in client 'optimizeDeps.include'
+06:51:11 [vite] (client) Pre-transform error: Failed to resolve import "zone.js/testing" from "spec-app-features-vitest-tutorial-29-async-pipe-live-clock.component.js". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/spec-app-features-vitest-tutorial-29-async-pipe-live-clock.component.js:1:7
+  78 |  
+  79 |  // src/app/features/vitest-tutorial/29-async-pipe/live-clock.component.spec.ts
+  80 |  import "zone.js/testing";
+     |          ^
+  81 |  import { TestBed, fakeAsync, tick, discardPeriodicTasks } from "@angular/core/testing";
+  82 |  import { describe, it, expect, beforeEach } from "vitest";
+06:51:11 [vite] Internal server error: Failed to resolve import "zone.js/testing" from "spec-app-features-vitest-tutorial-29-async-pipe-live-clock.component.js". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/spec-app-features-vitest-tutorial-29-async-pipe-live-clock.component.js:1:7
+  78 |  
+  79 |  // src/app/features/vitest-tutorial/29-async-pipe/live-clock.component.spec.ts
+  80 |  import "zone.js/testing";
+     |          ^
+  81 |  import { TestBed, fakeAsync, tick, discardPeriodicTasks } from "@angular/core/testing";
+  82 |  import { describe, it, expect, beforeEach } from "vitest";
+      at TransformPluginContext._formatLog (file:///C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/node_modules/vite/dist/node/chunks/config.js:28999:43)
+      at TransformPluginContext.error (file:///C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/node_modules/vite/dist/node/chunks/config.js:28996:14)
+      at normalizeUrl (file:///C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/node_modules/vite/dist/node/chunks/config.js:27119:18)
+      at processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at file:///C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/node_modules/vite/dist/node/chunks/config.js:27177:32
+      at async Promise.all (index 6)
+      at TransformPluginContext.transform (file:///C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/node_modules/vite/dist/node/chunks/config.js:27145:4)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/node_modules/vite/dist/node/chunks/config.js:28797:14)
+      at loadAndTransform (file:///C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at viteTransformMiddleware (file:///C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/node_modules/vite/dist/node/chunks/config.js:24542:20)
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/12-ngrx-component-store/todo.store.spec.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/24-route-guard/auth.guard.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [31mÔØ»[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/29-async-pipe/live-clock.component.spec.ts [2m([22m[2m0 test[22m[2m)[22m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/19-mat-autocomplete/city-search.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 127[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/18-mat-stepper/onboarding.component.spec.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 206[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/17-mat-table/user-table.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 159[2mms[22m[39m
+stderr | src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts > DialogTriggerComponent (the opener) > should open the dialog with the correct config when button is clicked
+ERROR [TypeError: Cannot read properties of undefined (reading 'push')]
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/04-child-component-mock/dashboard.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 65[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.spec.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 149[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/21-form-ngrx/search-bar.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 93[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/title/title.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 60[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/08-reactive-forms/login.component.spec.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 93[2mms[22m[39m
+ [31mÔØ»[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/28-custom-directive/highlight.directive.spec.ts [2m([22m[2m5 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 1141[2mms[22m[39m
+     [32mÔ£ô[39m should have no background color initially[32m 27[2mms[22m[39m
+     [32mÔ£ô[39m should set background color on mouseenter[32m 4[2mms[22m[39m
+     [32mÔ£ô[39m should remove background color on mouseleave[32m 2[2mms[22m[39m
+     [32mÔ£ô[39m should set an outline on click[32m 2[2mms[22m[39m
+[31m     [31m├ù[31m should use yellow as the default highlight color[39m[33m 1105[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/02-standalone-component-basic/greeting.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+stderr | src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts > DeleteButtonComponent (Dialog + NgRx) > should dispatch ItemActions.delete when user confirms
+ERROR [TypeError: Cannot read properties of undefined (reading 'push')]
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/23-table-entity/inventory.component.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 38[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/03-service-mock/counter.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+stderr | src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts > DialogTriggerComponent (the opener) > should show "Item deleted!" after the dialog resolves with true
+ERROR [TypeError: Cannot read properties of undefined (reading 'push')]
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/07-ngrx-standalone/ngrx-counter.component.spec.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 36[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/26-defer-blocks/lazy-profile.component.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/06-router/nav.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+ [31mÔØ»[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/20-mat-select-cdk/priority-select.component.spec.ts [2m([22m[2m6 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[33m 1211[2mms[22m[39m
+     [32mÔ£ô[39m should start with null value (nothing selected)[32m 65[2mms[22m[39m
+     [32mÔ£ô[39m should be invalid when required and nothing is selected[32m 14[2mms[22m[39m
+     [32mÔ£ô[39m should become valid when a value is set programmatically[32m 10[2mms[22m[39m
+     [32mÔ£ô[39m should show error message when touched and still null[32m 13[2mms[22m[39m
+[31m     [31m├ù[31m should open the panel and display 4 options in the overlay[39m[33m 708[2mms[22m[39m
+[31m     [31m├ù[31m should update the form control when an option is selected via overlay[39m[33m 399[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 49[2mms[22m[39m
+ [31mÔØ»[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/16-mat-snackbar/notifier.component.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[33m 1208[2mms[22m[39m
+[31m     [31m├ù[31m should show a success snackbar when save completes[39m[33m 798[2mms[22m[39m
+[31m     [31m├ù[31m should show an error snackbar when save fails[39m[33m 409[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-real-store/old-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/25-signals/temperature.store.spec.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-real-store/new-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/13-ngrx-signal-store/theme.store.spec.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-mock-store/old-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/14-ngrx-router-store/breadcrumb.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-mock-store/new-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 9[2mms[22m[39m
+stderr | src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts > DialogTriggerComponent (the opener) > should show "Cancelled." after the dialog resolves with false
+ERROR [TypeError: Cannot read properties of undefined (reading 'push')]
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/30-error-boundary/app-error-handler.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 550[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should dispatch Unhandled Error action when an Error object is caught [33m 543[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/27-http-interceptor/auth.interceptor.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/10-ngrx-selectors/cart.selectors.spec.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/05-http-service/user-api.service.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/11-ngrx-entity/products.store.spec.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/09-ngrx-effects/notification.effects.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/01-pure-service/calculator.service.spec.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+stderr | src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts > DeleteButtonComponent (Dialog + NgRx) > should NOT dispatch when user cancels the dialog
+ERROR [TypeError: Cannot read properties of undefined (reading 'push')]
+stderr | src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts > DeleteButtonComponent (Dialog + NgRx) > should open the dialog with the item id in the message
+ERROR [TypeError: Cannot read properties of undefined (reading 'push')]
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-shallow-parent/new-shallow-parent.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 13[2mms[22m[39m
+ [31mÔØ»[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[33m 1991[2mms[22m[39m
+[31m     [31m├ù[31m should dispatch ItemActions.delete when user confirms[39m[33m 1845[2mms[22m[39m
+     [32mÔ£ô[39m should NOT dispatch when user cancels the dialog[32m 10[2mms[22m[39m
+[31m     [31m├ù[31m should open the dialog with the item id in the message[39m[32m 134[2mms[22m[39m
+ [31mÔØ»[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts [2m([22m[2m6 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[33m 2020[2mms[22m[39m
+     [32mÔ£ô[39m should render the message from MAT_DIALOG_DATA[32m 64[2mms[22m[39m
+     [32mÔ£ô[39m should call dialogRef.close(true) when Confirm is clicked[32m 9[2mms[22m[39m
+     [32mÔ£ô[39m should call dialogRef.close(false) when Cancel is clicked[32m 7[2mms[22m[39m
+[31m     [31m├ù[31m should open the dialog with the correct config when button is clicked[39m[33m 1179[2mms[22m[39m
+[31m     [31m├ù[31m should show "Item deleted!" after the dialog resolves with true[39m[33m 621[2mms[22m[39m
+[31m     [31m├ù[31m should show "Cancelled." after the dialog resolves with false[39m[32m 139[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.browser.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 6081[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders with the identity as title and is visible in the browser [33m 2047[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders messages received from the WebSocket [33m 2014[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shows "Locked by" status when another user holds the lock [33m 2018[2mms[22m[39m
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Failed Suites 1 ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/29-async-pipe/live-clock.component.spec.ts [ src/app/features/vitest-tutorial/29-async-pipe/live-clock.component.spec.ts ]
+Error: Failed to import test file C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/src/app/features/vitest-tutorial/29-async-pipe/live-clock.component.spec.ts
+Caused by: TypeError: Failed to fetch dynamically imported module: http://localhost:63315/@fs/C:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular/src/app/features/vitest-tutorial/29-async-pipe/live-clock.component.spec.ts?import&browserv=1774245071184
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[1/11]ÔÄ»
+
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Failed Tests 10 ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts > DialogTriggerComponent (the opener) > should open the dialog with the correct config when button is clicked
+AssertionError: expected "vi.fn()" to be called once, but got 0 times
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/15-mat-dialog/__screenshots__/dialog.spec.ts/DialogTriggerComponent--the-opener--should-open-the-dialog-with-the-correct-config-when-button-is-clicked-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts:108:27
+    106|     await setup(true);
+    107|     fixture.nativeElement.querySelector('[data-testid="open-btn"]').clÔÇª
+    108|     expect(dialogOpenSpy).toHaveBeenCalledOnce();
+       |                           ^
+    109|     expect(dialogOpenSpy).toHaveBeenCalledWith(
+    110|       expect.any(Function),  // ConfirmDialogComponent class
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[2/11]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts > DialogTriggerComponent (the opener) > should show "Item deleted!" after the dialog resolves with true
+AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/15-mat-dialog/__screenshots__/dialog.spec.ts/DialogTriggerComponent--the-opener--should-show--Item-deleted---after-the-dialog-resolves-with-true-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts:124:29
+    122| 
+    123|     const el = fixture.nativeElement.querySelector('[data-testid="resuÔÇª
+    124|     expect(el?.textContent).toContain('Item deleted!');
+       |                             ^
+    125|   });
+    126| 
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[3/11]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts > DialogTriggerComponent (the opener) > should show "Cancelled." after the dialog resolves with false
+AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/15-mat-dialog/__screenshots__/dialog.spec.ts/DialogTriggerComponent--the-opener--should-show--Cancelled---after-the-dialog-resolves-with-false-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts:136:29
+    134| 
+    135|     const el = fixture.nativeElement.querySelector('[data-testid="cancÔÇª
+    136|     expect(el?.textContent).toContain('Cancelled.');
+       |                             ^
+    137|   });
+    138| });
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[4/11]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/16-mat-snackbar/notifier.component.spec.ts > NotifierComponent ÔÇô MatSnackBar > should show a success snackbar when save completes
+AssertionError: expected "vi.fn()" to be called once, but got 0 times
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/16-mat-snackbar/__screenshots__/notifier.component.spec.ts/NotifierComponent---MatSnackBar-should-show-a-success-snackbar-when-save-completes-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/16-mat-snackbar/notifier.component.spec.ts:66:27
+     64|     await fixture.whenStable(); // Ô£à Wait for HttpClient and snackbar ÔÇª
+     65|     
+     66|     expect(snackSpy.open).toHaveBeenCalledOnce();
+       |                           ^
+     67|     expect(snackSpy.open).toHaveBeenCalledWith(
+     68|       'Saved successfully!',
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[5/11]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/16-mat-snackbar/notifier.component.spec.ts > NotifierComponent ÔÇô MatSnackBar > should show an error snackbar when save fails
+AssertionError: expected "vi.fn()" to be called once, but got 0 times
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/16-mat-snackbar/__screenshots__/notifier.component.spec.ts/NotifierComponent---MatSnackBar-should-show-an-error-snackbar-when-save-fails-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/16-mat-snackbar/notifier.component.spec.ts:86:27
+     84|     await fixture.whenStable();
+     85| 
+     86|     expect(snackSpy.open).toHaveBeenCalledOnce();
+       |                           ^
+     87|     expect(snackSpy.open).toHaveBeenCalledWith(
+     88|       'Save failed. Please try again.',
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[6/11]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/20-mat-select-cdk/priority-select.component.spec.ts > PrioritySelectComponent (MatSelect) > should open the panel and display 4 options in the overlay
+AssertionError: expected +0 to be 4 // Object.is equality
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/20-mat-select-cdk/__screenshots__/priority-select.component.spec.ts/PrioritySelectComponent--MatSelect--should-open-the-panel-and-display-4-options-in-the-overlay-1.png
+
+- Expected
++ Received
+
+- 4
++ 0
+
+ ÔØ» src/app/features/vitest-tutorial/20-mat-select-cdk/priority-select.component.spec.ts:92:28
+     90|     // Ô£à Options are rendered in the overlay container ÔÇö query from thÔÇª
+     91|     const options = overlayContainerEl.querySelectorAll('mat-option');
+     92|     expect(options.length).toBe(4);
+       |                            ^
+     93|   });
+     94| 
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[7/11]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/20-mat-select-cdk/priority-select.component.spec.ts > PrioritySelectComponent (MatSelect) > should update the form control when an option is selected via overlay
+TypeError: Cannot read properties of undefined (reading 'click')
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/20-mat-select-cdk/__screenshots__/priority-select.component.spec.ts/PrioritySelectComponent--MatSelect--should-update-the-form-control-when-an-option-is-selected-via-overlay-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/20-mat-select-cdk/priority-select.component.spec.ts:103:16
+    101|     const options = overlayContainerEl.querySelectorAll('mat-option') ÔÇª
+    102|     // Ô£à Click the "Critical" option (index 0)
+    103|     options[0].click();
+       |                ^
+    104|     fixture.detectChanges();
+    105|     await fixture.whenStable();
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[8/11]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts > DeleteButtonComponent (Dialog + NgRx) > should dispatch ItemActions.delete when user confirms
+AssertionError: expected "dispatch" to be called with arguments: [ { id: 'item-123', ÔÇª(1) } ]
+
+Number of calls: 0
+
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/22-dialog-ngrx/__screenshots__/delete-button.component.spec.ts/DeleteButtonComponent--Dialog---NgRx--should-dispatch-ItemActions-delete-when-user-confirms-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts:62:25
+     60|     await fixture.whenStable();
+     61| 
+     62|     expect(dispatchSpy).toHaveBeenCalledWith(
+       |                         ^
+     63|       ItemActions.delete({ id: 'item-123' }),
+     64|     );
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[9/11]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts > DeleteButtonComponent (Dialog + NgRx) > should open the dialog with the item id in the message
+AssertionError: expected "vi.fn()" to be called with arguments: [ Any<Function>, ObjectContaining{ÔÇª} ]
+
+Number of calls: 0
+
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/22-dialog-ngrx/__screenshots__/delete-button.component.spec.ts/DeleteButtonComponent--Dialog---NgRx--should-open-the-dialog-with-the-item-id-in-the-message-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts:84:25
+     82|     fixture.nativeElement.querySelector('[data-testid="delete-btn"]').ÔÇª
+     83| 
+     84|     expect(dialog.open).toHaveBeenCalledWith(
+       |                         ^
+     85|       expect.any(Function),
+     86|       expect.objectContaining({
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[10/11]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/28-custom-directive/highlight.directive.spec.ts > HighlightDirective > should use yellow as the default highlight color
+AssertionError: expected '' to be 'yellow' // Object.is equality
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/28-custom-directive/__screenshots__/highlight.directive.spec.ts/HighlightDirective-should-use-yellow-as-the-default-highlight-color-1.png
+
+- Expected
++ Received
+
+- yellow
+
+ ÔØ» src/app/features/vitest-tutorial/28-custom-directive/highlight.directive.spec.ts:88:69
+     86|     fixture.detectChanges();
+     87| 
+     88|     expect((de.nativeElement as HTMLElement).style.backgroundColor).toÔÇª
+       |                                                                     ^
+     89|   });
+     90| });
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[11/11]ÔÄ»
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Unhandled Errors ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+
+Vitest caught 6 unhandled errors during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Error ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+TypeError: Cannot read properties of undefined (reading 'push')
+ ÔØ» _MatDialog.open ../../../../../../..//darwin_arm64-fastbuild-ST-fdfa778d11ba/bin/src/material/dialog/dialog.ts:192:22
+ ÔØ» _DialogTriggerComponent.openDialog ../../../../../../..//src/app/features/vitest-tutorial/15-mat-dialog/dialog-trigger.component.ts:28:29
+ ÔØ» listenerFn ../../../../../../..//src/app/features/vitest-tutorial/15-mat-dialog/dialog-trigger.component.ts:11:63
+ ÔØ» executeListenerWithErrorHandling ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:83:12
+ ÔØ» eventHandler ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:59:18
+ ÔØ» HTMLButtonElement.<anonymous> ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/platform-browser/src/dom/dom_renderer.ts:466:13
+ ÔØ» src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts:107:69
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+This error originated in "src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should open the dialog with the correct config when button is clicked". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Error ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+TypeError: Cannot read properties of undefined (reading 'push')
+ ÔØ» _MatDialog.open ../../../../../../..//darwin_arm64-fastbuild-ST-fdfa778d11ba/bin/src/material/dialog/dialog.ts:192:22
+ ÔØ» _DeleteButtonComponent.confirmDelete ../../../../../../..//src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.ts:34:29
+ ÔØ» listenerFn ../../../../../../..//src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.ts:21:16
+ ÔØ» executeListenerWithErrorHandling ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:83:12
+ ÔØ» eventHandler ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:59:18
+ ÔØ» HTMLButtonElement.<anonymous> ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/platform-browser/src/dom/dom_renderer.ts:466:13
+ ÔØ» src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts:58:71
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+This error originated in "src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should dispatch ItemActions.delete when user confirms". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Error ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+TypeError: Cannot read properties of undefined (reading 'push')
+ ÔØ» _MatDialog.open ../../../../../../..//darwin_arm64-fastbuild-ST-fdfa778d11ba/bin/src/material/dialog/dialog.ts:192:22
+ ÔØ» _DialogTriggerComponent.openDialog ../../../../../../..//src/app/features/vitest-tutorial/15-mat-dialog/dialog-trigger.component.ts:28:29
+ ÔØ» listenerFn ../../../../../../..//src/app/features/vitest-tutorial/15-mat-dialog/dialog-trigger.component.ts:11:63
+ ÔØ» executeListenerWithErrorHandling ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:83:12
+ ÔØ» eventHandler ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:59:18
+ ÔØ» HTMLButtonElement.<anonymous> ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/platform-browser/src/dom/dom_renderer.ts:466:13
+ ÔØ» src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts:117:69
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+This error originated in "src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should show "Item deleted!" after the dialog resolves with true". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Error ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+TypeError: Cannot read properties of undefined (reading 'push')
+ ÔØ» _MatDialog.open ../../../../../../..//darwin_arm64-fastbuild-ST-fdfa778d11ba/bin/src/material/dialog/dialog.ts:192:22
+ ÔØ» _DialogTriggerComponent.openDialog ../../../../../../..//src/app/features/vitest-tutorial/15-mat-dialog/dialog-trigger.component.ts:28:29
+ ÔØ» listenerFn ../../../../../../..//src/app/features/vitest-tutorial/15-mat-dialog/dialog-trigger.component.ts:11:63
+ ÔØ» executeListenerWithErrorHandling ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:83:12
+ ÔØ» eventHandler ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:59:18
+ ÔØ» HTMLButtonElement.<anonymous> ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/platform-browser/src/dom/dom_renderer.ts:466:13
+ ÔØ» src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts:129:69
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+This error originated in "src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should show "Cancelled." after the dialog resolves with false". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Error ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+TypeError: Cannot read properties of undefined (reading 'push')
+ ÔØ» _MatDialog.open ../../../../../../..//darwin_arm64-fastbuild-ST-fdfa778d11ba/bin/src/material/dialog/dialog.ts:192:22
+ ÔØ» _DeleteButtonComponent.confirmDelete ../../../../../../..//src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.ts:34:29
+ ÔØ» listenerFn ../../../../../../..//src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.ts:21:16
+ ÔØ» executeListenerWithErrorHandling ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:83:12
+ ÔØ» eventHandler ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:59:18
+ ÔØ» HTMLButtonElement.<anonymous> ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/platform-browser/src/dom/dom_renderer.ts:466:13
+ ÔØ» src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts:71:71
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+This error originated in "src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should NOT dispatch when user cancels the dialog". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Error ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+TypeError: Cannot read properties of undefined (reading 'push')
+ ÔØ» _MatDialog.open ../../../../../../..//darwin_arm64-fastbuild-ST-fdfa778d11ba/bin/src/material/dialog/dialog.ts:192:22
+ ÔØ» _DeleteButtonComponent.confirmDelete ../../../../../../..//src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.ts:34:29
+ ÔØ» listenerFn ../../../../../../..//src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.ts:21:16
+ ÔØ» executeListenerWithErrorHandling ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:83:12
+ ÔØ» eventHandler ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/core/src/render3/view/listeners.ts:59:18
+ ÔØ» HTMLButtonElement.<anonymous> ../../../../../../..//k8-fastbuild-ST-fdfa778d11ba/bin/packages/platform-browser/src/dom/dom_renderer.ts:466:13
+ ÔØ» src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts:82:71
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+This error originated in "src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should open the dialog with the item id in the message". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+
+
+[2m Test Files [22m [1m[31m6 failed[39m[22m[2m | [22m[1m[32m33 passed[39m[22m[90m (39)[39m
+[2m      Tests [22m [1m[31m10 failed[39m[22m[2m | [22m[1m[32m191 passed[39m[22m[90m (201)[39m
+[2m     Errors [22m [1m[31m6 errors[39m[22m
+[2m   Start at [22m 06:51:07
+[2m   Duration [22m 11.12s[2m (transform 0ms, setup 11.44s, import 6.72s, tests 15.56s, environment 0ms)[22m
+

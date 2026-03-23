@@ -1,0 +1,304 @@
+
+> hello-angular@0.0.0 test
+> ng test --coverage --watch=false --headless=true
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[33mÔØ»[39m Building...
+[32mÔ£ö[39m Building...
+[1mInitial chunk files[22m                                                                             [2m | [22m[1mNames[22m                                                                                        [2m | [22m [1mRaw size[22m
+[32mstyles.css[39m                                                                                      [2m | [22m[2mstyles[22m                                                                                       [2m | [22m[36m111.64 kB[39m[2m | [22m
+[32mspec-app-features-old-syntax-components-old-parent-real-store-old-parent-real-store.component.js[39m[2m | [22m[2mspec-app-features-old-syntax-components-old-parent-real-store-old-parent-real-store.component[22m[2m | [22m [36m18.32 kB[39m[2m | [22m
+[32mchunk-F2XJZERO.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m [36m15.53 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-04-child-component-mock-dashboard.component.js[39m                [2m | [22m[2mspec-app-features-vitest-tutorial-04-child-component-mock-dashboard.component[22m                [2m | [22m [36m11.28 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-08-reactive-forms-login.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-08-reactive-forms-login.component[22m                          [2m | [22m [36m11.08 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-17-mat-table-user-table.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-17-mat-table-user-table.component[22m                          [2m | [22m [36m11.01 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-18-mat-stepper-onboarding.component.js[39m                        [2m | [22m[2mspec-app-features-vitest-tutorial-18-mat-stepper-onboarding.component[22m                        [2m | [22m [36m10.78 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-07-ngrx-standalone-ngrx-counter.component.js[39m                  [2m | [22m[2mspec-app-features-vitest-tutorial-07-ngrx-standalone-ngrx-counter.component[22m                  [2m | [22m [36m10.07 kB[39m[2m | [22m
+[32mspec-app-features-new-syntax-components-new-parent-real-store-new-parent-real-store.component.js[39m[2m | [22m[2mspec-app-features-new-syntax-components-new-parent-real-store-new-parent-real-store.component[22m[2m | [22m  [36m9.24 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-23-table-entity-inventory.component.js[39m                        [2m | [22m[2mspec-app-features-vitest-tutorial-23-table-entity-inventory.component[22m                        [2m | [22m  [36m9.18 kB[39m[2m | [22m
+[32mspec-app-features-home-title-title.component.js[39m                                                 [2m | [22m[2mspec-app-features-home-title-title.component[22m                                                 [2m | [22m  [36m8.91 kB[39m[2m | [22m
+[32mspec-app-app.js[39m                                                                                 [2m | [22m[2mspec-app-app[22m                                                                                 [2m | [22m  [36m8.59 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-03-service-mock-counter.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-03-service-mock-counter.component[22m                          [2m | [22m  [36m8.48 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-20-mat-select-cdk-priority-select.component.js[39m                [2m | [22m[2mspec-app-features-vitest-tutorial-20-mat-select-cdk-priority-select.component[22m                [2m | [22m  [36m8.25 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-19-mat-autocomplete-city-search.component.js[39m                  [2m | [22m[2mspec-app-features-vitest-tutorial-19-mat-autocomplete-city-search.component[22m                  [2m | [22m  [36m7.59 kB[39m[2m | [22m
+[32mchunk-HWE4SFDI.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m7.38 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-14-ngrx-router-store-breadcrumb.component.js[39m                  [2m | [22m[2mspec-app-features-vitest-tutorial-14-ngrx-router-store-breadcrumb.component[22m                  [2m | [22m  [36m7.26 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-21-form-ngrx-search-bar.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-21-form-ngrx-search-bar.component[22m                          [2m | [22m  [36m7.08 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-28-custom-directive-highlight.directive.js[39m                    [2m | [22m[2mspec-app-features-vitest-tutorial-28-custom-directive-highlight.directive[22m                    [2m | [22m  [36m6.81 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-15-mat-dialog-dialog.js[39m                                       [2m | [22m[2mspec-app-features-vitest-tutorial-15-mat-dialog-dialog[22m                                       [2m | [22m  [36m6.80 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-22-dialog-ngrx-delete-button.component.js[39m                     [2m | [22m[2mspec-app-features-vitest-tutorial-22-dialog-ngrx-delete-button.component[22m                     [2m | [22m  [36m6.25 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-12-ngrx-component-store-todo.store.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-12-ngrx-component-store-todo.store[22m                         [2m | [22m  [36m6.22 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-26-defer-blocks-lazy-profile.component.js[39m                     [2m | [22m[2mspec-app-features-vitest-tutorial-26-defer-blocks-lazy-profile.component[22m                     [2m | [22m  [36m6.03 kB[39m[2m | [22m
+[32mchunk-XNDA3IA4.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m5.67 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-06-router-nav.component.js[39m                                    [2m | [22m[2mspec-app-features-vitest-tutorial-06-router-nav.component[22m                                    [2m | [22m  [36m5.58 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-16-mat-snackbar-notifier.component.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-16-mat-snackbar-notifier.component[22m                         [2m | [22m  [36m5.46 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-29-async-pipe-live-clock.component.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-29-async-pipe-live-clock.component[22m                         [2m | [22m  [36m5.16 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-09-ngrx-effects-notification.effects.js[39m                       [2m | [22m[2mspec-app-features-vitest-tutorial-09-ngrx-effects-notification.effects[22m                       [2m | [22m  [36m4.86 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-02-standalone-component-basic-greeting.component.js[39m           [2m | [22m[2mspec-app-features-vitest-tutorial-02-standalone-component-basic-greeting.component[22m           [2m | [22m  [36m4.86 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-24-route-guard-auth.guard.js[39m                                  [2m | [22m[2mspec-app-features-vitest-tutorial-24-route-guard-auth.guard[22m                                  [2m | [22m  [36m4.55 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-10-ngrx-selectors-cart.selectors.js[39m                           [2m | [22m[2mspec-app-features-vitest-tutorial-10-ngrx-selectors-cart.selectors[22m                           [2m | [22m  [36m4.42 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-05-http-service-user-api.service.js[39m                           [2m | [22m[2mspec-app-features-vitest-tutorial-05-http-service-user-api.service[22m                           [2m | [22m  [36m4.24 kB[39m[2m | [22m
+[32mspec-app-features-home-chat-chat-chat.component.js[39m                                              [2m | [22m[2mspec-app-features-home-chat-chat-chat.component[22m                                              [2m | [22m  [36m4.00 kB[39m[2m | [22m
+[32mchunk-5OLXPXBD.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m3.86 kB[39m[2m | [22m
+[32mspec-app-features-home-chat-chat-chat.component.browser.js[39m                                      [2m | [22m[2mspec-app-features-home-chat-chat-chat.component.browser[22m                                      [2m | [22m  [36m3.74 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-25-signals-temperature.store.js[39m                               [2m | [22m[2mspec-app-features-vitest-tutorial-25-signals-temperature.store[22m                               [2m | [22m  [36m3.68 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-13-ngrx-signal-store-theme.store.js[39m                           [2m | [22m[2mspec-app-features-vitest-tutorial-13-ngrx-signal-store-theme.store[22m                           [2m | [22m  [36m3.33 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-27-http-interceptor-auth.interceptor.js[39m                       [2m | [22m[2mspec-app-features-vitest-tutorial-27-http-interceptor-auth.interceptor[22m                       [2m | [22m  [36m3.23 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-11-ngrx-entity-products.store.js[39m                              [2m | [22m[2mspec-app-features-vitest-tutorial-11-ngrx-entity-products.store[22m                              [2m | [22m  [36m3.04 kB[39m[2m | [22m
+[32mspec-app-features-new-syntax-components-new-shallow-parent-new-shallow-parent.component.js[39m      [2m | [22m[2mspec-app-features-new-syntax-components-new-shallow-parent-new-shallow-parent.component[22m      [2m | [22m  [36m2.98 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-30-error-boundary-app-error-handler.js[39m                        [2m | [22m[2mspec-app-features-vitest-tutorial-30-error-boundary-app-error-handler[22m                        [2m | [22m  [36m2.92 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-01-pure-service-calculator.service.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-01-pure-service-calculator.service[22m                         [2m | [22m  [36m2.82 kB[39m[2m | [22m
+[32mchunk-YT4LOND6.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m2.53 kB[39m[2m | [22m
+[32mchunk-5R5DA3W4.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m2.53 kB[39m[2m | [22m
+[32mspec-app-features-new-syntax-components-new-parent-mock-store-new-parent-mock-store.component.js[39m[2m | [22m[2mspec-app-features-new-syntax-components-new-parent-mock-store-new-parent-mock-store.component[22m[2m | [22m  [36m2.47 kB[39m[2m | [22m
+[32mspec-app-features-old-syntax-components-old-parent-mock-store-old-parent-mock-store.component.js[39m[2m | [22m[2mspec-app-features-old-syntax-components-old-parent-mock-store-old-parent-mock-store.component[22m[2m | [22m  [36m2.43 kB[39m[2m | [22m
+[32mchunk-7CCSJABM.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m1.51 kB[39m[2m | [22m
+[32minit-testbed.js[39m                                                                                 [2m | [22m[2minit-testbed[22m                                                                                 [2m | [22m  [36m1.21 kB[39m[2m | [22m
+[32mvitest-mock-patch.js[39m                                                                            [2m | [22m[2mvitest-mock-patch[22m                                                                            [2m | [22m[36m704 bytes[39m[2m | [22m
+[32mpolyfills.js[39m                                                                                    [2m | [22m[2mpolyfills[22m                                                                                    [2m | [22m [36m82 bytes[39m[2m | [22m
+
+[1m [22m                                                                                               [2m | [22m[1mInitial total[22m                                                                                [2m | [22m[1m405.65 kB[22m
+
+Application bundle generation complete. [2.352 seconds] - 2026-03-23T05:56:06.388Z
+
+Ôû▓ [WARNING] NG8113: RouterLink is not used within the template of BreadcrumbComponent [plugin angular-compiler]
+
+    src/app/features/vitest-tutorial/14-ngrx-router-store/breadcrumb.component.ts:10:26:
+      10 Ôöé   imports: [CommonModule, RouterLink, RouterLinkActive],
+         ÔòÁ                           ~~~~~~~~~~
+
+
+Ôû▓ [WARNING] NG8113: RouterLinkActive is not used within the template of BreadcrumbComponent [plugin angular-compiler]
+
+    src/app/features/vitest-tutorial/14-ngrx-router-store/breadcrumb.component.ts:10:38:
+      10 Ôöé   imports: [CommonModule, RouterLink, RouterLinkActive],
+         ÔòÁ                                       ~~~~~~~~~~~~~~~~
+
+
+Ôû▓ [WARNING] NG8107: NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. Find more at https://v21.angular.dev/extended-diagnostics/NG8107 [plugin angular-compiler]
+
+    src/app/features/vitest-tutorial/23-table-entity/inventory.component.ts:26:22:
+      26 Ôöé     @if ((products()?.length ?? 0) === 0) {
+         ÔòÁ                       ~~~~~~
+
+
+Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+    angular:polyfills:angular:polyfills:1:7:
+      1 Ôöé import './src/polyfills.ts';
+        ÔòÁ        ~~~~~~~~~~~~~~~~~~~~
+
+  The file will be bundled and included in the output but will not be type-checked at build time. To remove this message you can add the file to the TypeScript program via the 'files' or 'include' property.
+
+
+
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mC:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular[39m
+      [2mCoverage enabled with [22m[33mv8[39m
+
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/28-custom-directive/highlight.directive.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 39[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/29-async-pipe/live-clock.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 44[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 68[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/19-mat-autocomplete/city-search.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 129[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/18-mat-stepper/onboarding.component.spec.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 209[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.spec.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 136[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/08-reactive-forms/login.component.spec.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 86[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/17-mat-table/user-table.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 210[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/30-error-boundary/app-error-handler.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 646[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should dispatch Unhandled Error action when an Error object is caught [33m 642[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/21-form-ngrx/search-bar.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 90[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/04-child-component-mock/dashboard.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 49[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/07-ngrx-standalone/ngrx-counter.component.spec.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 50[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/02-standalone-component-basic/greeting.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 36[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/23-table-entity/inventory.component.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 44[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/12-ngrx-component-store/todo.store.spec.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 38[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/title/title.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 53[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/06-router/nav.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 30[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/24-route-guard/auth.guard.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [31mÔØ»[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/16-mat-snackbar/notifier.component.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[33m 1033[2mms[22m[39m
+[31m     [31m├ù[31m should show a success snackbar when save completes[39m[33m 504[2mms[22m[39m
+[31m     [31m├ù[31m should show an error snackbar when save fails[39m[33m 528[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/03-service-mock/counter.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [31mÔØ»[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/20-mat-select-cdk/priority-select.component.spec.ts [2m([22m[2m6 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[33m 1021[2mms[22m[39m
+     [32mÔ£ô[39m should start with null value (nothing selected)[32m 69[2mms[22m[39m
+     [32mÔ£ô[39m should be invalid when required and nothing is selected[32m 16[2mms[22m[39m
+     [32mÔ£ô[39m should become valid when a value is set programmatically[32m 14[2mms[22m[39m
+     [32mÔ£ô[39m should show error message when touched and still null[32m 14[2mms[22m[39m
+[31m     [31m├ù[31m should open the panel and display 4 options in the overlay[39m[33m 683[2mms[22m[39m
+[31m     [31m├ù[31m should update the form control when an option is selected via overlay[39m[32m 224[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/26-defer-blocks/lazy-profile.component.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/25-signals/temperature.store.spec.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/13-ngrx-signal-store/theme.store.spec.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-real-store/old-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 21[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-mock-store/old-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/14-ngrx-router-store/breadcrumb.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-mock-store/new-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-real-store/new-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/27-http-interceptor/auth.interceptor.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/09-ngrx-effects/notification.effects.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-shallow-parent/new-shallow-parent.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/05-http-service/user-api.service.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/01-pure-service/calculator.service.spec.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/11-ngrx-entity/products.store.spec.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/10-ngrx-selectors/cart.selectors.spec.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+ [31mÔØ»[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts [2m([22m[2m3 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[33m 1770[2mms[22m[39m
+[31m     [31m├ù[31m should open the dialog with the correct config when button is clicked[39m[33m 1036[2mms[22m[39m
+[31m     [31m├ù[31m should show "Item deleted!" after the dialog resolves with true[39m[33m 621[2mms[22m[39m
+[31m     [31m├ù[31m should show "Cancelled." after the dialog resolves with false[39m[32m 112[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.browser.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 6118[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders with the identity as title and is visible in the browser [33m 2069[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders messages received from the WebSocket [33m 2025[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shows "Locked by" status when another user holds the lock [33m 2023[2mms[22m[39m
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ» Failed Tests 7 ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts > DialogTriggerComponent (the opener) > should open the dialog with the correct config when button is clicked
+AssertionError: expected "vi.fn()" to be called with arguments: [ ÔÇª(2) ]
+
+Received: 
+
+  1st vi.fn() call:
+
+  [
+    [Function _ConfirmDialogComponent],
+-   ObjectContaining {
++   {
+      "data": {
+        "message": "Are you sure you want to delete this item?",
+      },
+-     "width": "350px",
+    },
+  ]
+
+
+Number of calls: 1
+
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/15-mat-dialog/__screenshots__/dialog.spec.ts/DialogTriggerComponent--the-opener--should-open-the-dialog-with-the-correct-config-when-button-is-clicked-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts:39:28
+     37|     
+     38|     expect(dialogSpy.open).toHaveBeenCalledOnce();
+     39|     expect(dialogSpy.open).toHaveBeenCalledWith(
+       |                            ^
+     40|       ConfirmDialogComponent,
+     41|       expect.objectContaining({
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[1/7]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts > DialogTriggerComponent (the opener) > should show "Item deleted!" after the dialog resolves with true
+AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/15-mat-dialog/__screenshots__/dialog.spec.ts/DialogTriggerComponent--the-opener--should-show--Item-deleted---after-the-dialog-resolves-with-true-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts:57:29
+     55| 
+     56|     const el = fixture.nativeElement.querySelector('[data-testid="resuÔÇª
+     57|     expect(el?.textContent).toContain('Item deleted!');
+       |                             ^
+     58|   });
+     59| 
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[2/7]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts > DialogTriggerComponent (the opener) > should show "Cancelled." after the dialog resolves with false
+AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/15-mat-dialog/__screenshots__/dialog.spec.ts/DialogTriggerComponent--the-opener--should-show--Cancelled---after-the-dialog-resolves-with-false-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts:69:29
+     67| 
+     68|     const el = fixture.nativeElement.querySelector('[data-testid="cancÔÇª
+     69|     expect(el?.textContent).toContain('Cancelled.');
+       |                             ^
+     70|   });
+     71| });
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[3/7]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/16-mat-snackbar/notifier.component.spec.ts > NotifierComponent ÔÇô MatSnackBar > should show a success snackbar when save completes
+AssertionError: expected "vi.fn()" to be called once, but got 0 times
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/16-mat-snackbar/__screenshots__/notifier.component.spec.ts/NotifierComponent---MatSnackBar-should-show-a-success-snackbar-when-save-completes-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/16-mat-snackbar/notifier.component.spec.ts:66:27
+     64|     await fixture.whenStable(); // Ô£à Wait for HttpClient and snackbar ÔÇª
+     65|     
+     66|     expect(snackSpy.open).toHaveBeenCalledOnce();
+       |                           ^
+     67|     expect(snackSpy.open).toHaveBeenCalledWith(
+     68|       'Saved successfully!',
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[4/7]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/16-mat-snackbar/notifier.component.spec.ts > NotifierComponent ÔÇô MatSnackBar > should show an error snackbar when save fails
+AssertionError: expected "vi.fn()" to be called once, but got 0 times
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/16-mat-snackbar/__screenshots__/notifier.component.spec.ts/NotifierComponent---MatSnackBar-should-show-an-error-snackbar-when-save-fails-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/16-mat-snackbar/notifier.component.spec.ts:86:27
+     84|     await fixture.whenStable();
+     85| 
+     86|     expect(snackSpy.open).toHaveBeenCalledOnce();
+       |                           ^
+     87|     expect(snackSpy.open).toHaveBeenCalledWith(
+     88|       'Save failed. Please try again.',
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[5/7]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/20-mat-select-cdk/priority-select.component.spec.ts > PrioritySelectComponent (MatSelect) > should open the panel and display 4 options in the overlay
+AssertionError: expected +0 to be 4 // Object.is equality
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/20-mat-select-cdk/__screenshots__/priority-select.component.spec.ts/PrioritySelectComponent--MatSelect--should-open-the-panel-and-display-4-options-in-the-overlay-1.png
+
+- Expected
++ Received
+
+- 4
++ 0
+
+ ÔØ» src/app/features/vitest-tutorial/20-mat-select-cdk/priority-select.component.spec.ts:92:28
+     90|     // Ô£à Options are rendered in the overlay container
+     91|     const options = overlayContainerEl.querySelectorAll('mat-option');
+     92|     expect(options.length).toBe(4);
+       |                            ^
+     93|   });
+     94| 
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[6/7]ÔÄ»
+
+ FAIL   hello-angular (chromium)  src/app/features/vitest-tutorial/20-mat-select-cdk/priority-select.component.spec.ts > PrioritySelectComponent (MatSelect) > should update the form control when an option is selected via overlay
+TypeError: Cannot read properties of undefined (reading 'dispatchEvent')
+
+Failure screenshot:
+  - src/app/features/vitest-tutorial/20-mat-select-cdk/__screenshots__/priority-select.component.spec.ts/PrioritySelectComponent--MatSelect--should-update-the-form-control-when-an-option-is-selected-via-overlay-1.png
+
+ ÔØ» src/app/features/vitest-tutorial/20-mat-select-cdk/priority-select.component.spec.ts:104:16
+    102|     const options = overlayContainerEl.querySelectorAll('mat-option') ÔÇª
+    103|     // Ô£à Dispatch click on the option element directly
+    104|     options[0].dispatchEvent(new MouseEvent('click', { bubbles: true }ÔÇª
+       |                ^
+    105|     fixture.detectChanges();
+    106|     await fixture.whenStable();
+ ÔØ» fulfilled chunk-XNDA3IA4.js:76:24
+
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[7/7]ÔÄ»
+
+
+[2m Test Files [22m [1m[31m3 failed[39m[22m[2m | [22m[1m[32m36 passed[39m[22m[90m (39)[39m
+[2m      Tests [22m [1m[31m7 failed[39m[22m[2m | [22m[1m[32m194 passed[39m[22m[90m (201)[39m
+[2m   Start at [22m 06:56:06
+[2m   Duration [22m 10.27s[2m (transform 0ms, setup 10.43s, import 5.72s, tests 12.08s, environment 0ms)[22m
+
