@@ -22,6 +22,8 @@ npx vitest run
 | 06 | `06-router/` | `provideRouter([])` + spy on `router.navigate()` |
 | 07 | `07-ngrx-standalone/` | `provideMockStore` · selector override · dispatch spy · pure reducer tests |
 | 08 | `08-reactive-forms/` | Form validity · `setValue` · `markAsTouched` · `output()` event assertion |
+| ... | ... | ... |
+| 32 | `32-zone-js/` | Advanced `zone.js` testing · `setInterval` · `runOutsideAngular` · CD verification |
 
 ---
 

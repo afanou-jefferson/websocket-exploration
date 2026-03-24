@@ -1,0 +1,11 @@
+<div class="coverage-container">
+  <h1>{{ title() }}</h1>
+
+  @if (isVisible()) {
+    <p data-testid="visible-text" class="success">This text is visible and tested.</p>
+  } @else {
+    <p data-testid="hidden-text" class="warning">This text is hidden (we won't test this branch to see if the coverage catches it!)</p>
+  }
+
+  <button (click)="toggleVisibility()" data-testid="toggle-btn">Toggle Visibility</button>
+</div>

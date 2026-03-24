@@ -1,0 +1,254 @@
+
+> hello-angular@0.0.0 test
+> ng test --coverage --watch=false --headless=true
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[33mÔØ»[39m Building...
+[32mÔ£ö[39m Building...
+[1mInitial chunk files[22m                                                                             [2m | [22m[1mNames[22m                                                                                        [2m | [22m [1mRaw size[22m
+[32mstyles.css[39m                                                                                      [2m | [22m[2mstyles[22m                                                                                       [2m | [22m[36m111.64 kB[39m[2m | [22m
+[32mspec-app-features-old-syntax-components-old-parent-real-store-old-parent-real-store.component.js[39m[2m | [22m[2mspec-app-features-old-syntax-components-old-parent-real-store-old-parent-real-store.component[22m[2m | [22m [36m18.32 kB[39m[2m | [22m
+[32mchunk-F2XJZERO.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m [36m15.53 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-04-child-component-mock-dashboard.component.js[39m                [2m | [22m[2mspec-app-features-vitest-tutorial-04-child-component-mock-dashboard.component[22m                [2m | [22m [36m11.28 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-08-reactive-forms-login.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-08-reactive-forms-login.component[22m                          [2m | [22m [36m11.08 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-17-mat-table-user-table.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-17-mat-table-user-table.component[22m                          [2m | [22m [36m11.01 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-18-mat-stepper-onboarding.component.js[39m                        [2m | [22m[2mspec-app-features-vitest-tutorial-18-mat-stepper-onboarding.component[22m                        [2m | [22m [36m10.78 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-07-ngrx-standalone-ngrx-counter.component.js[39m                  [2m | [22m[2mspec-app-features-vitest-tutorial-07-ngrx-standalone-ngrx-counter.component[22m                  [2m | [22m [36m10.07 kB[39m[2m | [22m
+[32mspec-app-features-new-syntax-components-new-parent-real-store-new-parent-real-store.component.js[39m[2m | [22m[2mspec-app-features-new-syntax-components-new-parent-real-store-new-parent-real-store.component[22m[2m | [22m  [36m9.24 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-23-table-entity-inventory.component.js[39m                        [2m | [22m[2mspec-app-features-vitest-tutorial-23-table-entity-inventory.component[22m                        [2m | [22m  [36m9.18 kB[39m[2m | [22m
+[32mspec-app-features-home-title-title.component.js[39m                                                 [2m | [22m[2mspec-app-features-home-title-title.component[22m                                                 [2m | [22m  [36m8.91 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-20-mat-select-cdk-priority-select.component.js[39m                [2m | [22m[2mspec-app-features-vitest-tutorial-20-mat-select-cdk-priority-select.component[22m                [2m | [22m  [36m8.62 kB[39m[2m | [22m
+[32mspec-app-app.js[39m                                                                                 [2m | [22m[2mspec-app-app[22m                                                                                 [2m | [22m  [36m8.59 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-03-service-mock-counter.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-03-service-mock-counter.component[22m                          [2m | [22m  [36m8.48 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-19-mat-autocomplete-city-search.component.js[39m                  [2m | [22m[2mspec-app-features-vitest-tutorial-19-mat-autocomplete-city-search.component[22m                  [2m | [22m  [36m7.59 kB[39m[2m | [22m
+[32mchunk-HWE4SFDI.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m7.38 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-14-ngrx-router-store-breadcrumb.component.js[39m                  [2m | [22m[2mspec-app-features-vitest-tutorial-14-ngrx-router-store-breadcrumb.component[22m                  [2m | [22m  [36m7.26 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-21-form-ngrx-search-bar.component.js[39m                          [2m | [22m[2mspec-app-features-vitest-tutorial-21-form-ngrx-search-bar.component[22m                          [2m | [22m  [36m7.08 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-15-mat-dialog-dialog.js[39m                                       [2m | [22m[2mspec-app-features-vitest-tutorial-15-mat-dialog-dialog[22m                                       [2m | [22m  [36m6.92 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-28-custom-directive-highlight.directive.js[39m                    [2m | [22m[2mspec-app-features-vitest-tutorial-28-custom-directive-highlight.directive[22m                    [2m | [22m  [36m6.81 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-22-dialog-ngrx-delete-button.component.js[39m                     [2m | [22m[2mspec-app-features-vitest-tutorial-22-dialog-ngrx-delete-button.component[22m                     [2m | [22m  [36m6.25 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-12-ngrx-component-store-todo.store.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-12-ngrx-component-store-todo.store[22m                         [2m | [22m  [36m6.22 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-26-defer-blocks-lazy-profile.component.js[39m                     [2m | [22m[2mspec-app-features-vitest-tutorial-26-defer-blocks-lazy-profile.component[22m                     [2m | [22m  [36m6.03 kB[39m[2m | [22m
+[32mchunk-XNDA3IA4.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m5.67 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-06-router-nav.component.js[39m                                    [2m | [22m[2mspec-app-features-vitest-tutorial-06-router-nav.component[22m                                    [2m | [22m  [36m5.58 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-16-mat-snackbar-notifier.component.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-16-mat-snackbar-notifier.component[22m                         [2m | [22m  [36m5.45 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-29-async-pipe-live-clock.component.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-29-async-pipe-live-clock.component[22m                         [2m | [22m  [36m5.16 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-09-ngrx-effects-notification.effects.js[39m                       [2m | [22m[2mspec-app-features-vitest-tutorial-09-ngrx-effects-notification.effects[22m                       [2m | [22m  [36m4.86 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-02-standalone-component-basic-greeting.component.js[39m           [2m | [22m[2mspec-app-features-vitest-tutorial-02-standalone-component-basic-greeting.component[22m           [2m | [22m  [36m4.86 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-24-route-guard-auth.guard.js[39m                                  [2m | [22m[2mspec-app-features-vitest-tutorial-24-route-guard-auth.guard[22m                                  [2m | [22m  [36m4.55 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-10-ngrx-selectors-cart.selectors.js[39m                           [2m | [22m[2mspec-app-features-vitest-tutorial-10-ngrx-selectors-cart.selectors[22m                           [2m | [22m  [36m4.42 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-05-http-service-user-api.service.js[39m                           [2m | [22m[2mspec-app-features-vitest-tutorial-05-http-service-user-api.service[22m                           [2m | [22m  [36m4.24 kB[39m[2m | [22m
+[32mspec-app-features-home-chat-chat-chat.component.js[39m                                              [2m | [22m[2mspec-app-features-home-chat-chat-chat.component[22m                                              [2m | [22m  [36m4.00 kB[39m[2m | [22m
+[32mchunk-5OLXPXBD.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m3.86 kB[39m[2m | [22m
+[32mspec-app-features-home-chat-chat-chat.component.browser.js[39m                                      [2m | [22m[2mspec-app-features-home-chat-chat-chat.component.browser[22m                                      [2m | [22m  [36m3.74 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-25-signals-temperature.store.js[39m                               [2m | [22m[2mspec-app-features-vitest-tutorial-25-signals-temperature.store[22m                               [2m | [22m  [36m3.68 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-13-ngrx-signal-store-theme.store.js[39m                           [2m | [22m[2mspec-app-features-vitest-tutorial-13-ngrx-signal-store-theme.store[22m                           [2m | [22m  [36m3.33 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-27-http-interceptor-auth.interceptor.js[39m                       [2m | [22m[2mspec-app-features-vitest-tutorial-27-http-interceptor-auth.interceptor[22m                       [2m | [22m  [36m3.23 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-11-ngrx-entity-products.store.js[39m                              [2m | [22m[2mspec-app-features-vitest-tutorial-11-ngrx-entity-products.store[22m                              [2m | [22m  [36m3.04 kB[39m[2m | [22m
+[32mspec-app-features-new-syntax-components-new-shallow-parent-new-shallow-parent.component.js[39m      [2m | [22m[2mspec-app-features-new-syntax-components-new-shallow-parent-new-shallow-parent.component[22m      [2m | [22m  [36m2.98 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-30-error-boundary-app-error-handler.js[39m                        [2m | [22m[2mspec-app-features-vitest-tutorial-30-error-boundary-app-error-handler[22m                        [2m | [22m  [36m2.92 kB[39m[2m | [22m
+[32mspec-app-features-vitest-tutorial-01-pure-service-calculator.service.js[39m                         [2m | [22m[2mspec-app-features-vitest-tutorial-01-pure-service-calculator.service[22m                         [2m | [22m  [36m2.82 kB[39m[2m | [22m
+[32mchunk-5R5DA3W4.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m2.53 kB[39m[2m | [22m
+[32mchunk-YT4LOND6.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m2.53 kB[39m[2m | [22m
+[32mspec-app-features-new-syntax-components-new-parent-mock-store-new-parent-mock-store.component.js[39m[2m | [22m[2mspec-app-features-new-syntax-components-new-parent-mock-store-new-parent-mock-store.component[22m[2m | [22m  [36m2.47 kB[39m[2m | [22m
+[32mspec-app-features-old-syntax-components-old-parent-mock-store-old-parent-mock-store.component.js[39m[2m | [22m[2mspec-app-features-old-syntax-components-old-parent-mock-store-old-parent-mock-store.component[22m[2m | [22m  [36m2.43 kB[39m[2m | [22m
+[32mchunk-7CCSJABM.js[39m                                                                               [2m | [22m[2m-[22m                                                                                            [2m | [22m  [36m1.51 kB[39m[2m | [22m
+[32minit-testbed.js[39m                                                                                 [2m | [22m[2minit-testbed[22m                                                                                 [2m | [22m  [36m1.21 kB[39m[2m | [22m
+[32mvitest-mock-patch.js[39m                                                                            [2m | [22m[2mvitest-mock-patch[22m                                                                            [2m | [22m[36m704 bytes[39m[2m | [22m
+[32mpolyfills.js[39m                                                                                    [2m | [22m[2mpolyfills[22m                                                                                    [2m | [22m [36m82 bytes[39m[2m | [22m
+
+[1m [22m                                                                                               [2m | [22m[1mInitial total[22m                                                                                [2m | [22m[1m406.12 kB[22m
+
+Application bundle generation complete. [2.537 seconds] - 2026-03-23T06:52:52.649Z
+
+Ôû▓ [WARNING] NG8113: RouterLink is not used within the template of BreadcrumbComponent [plugin angular-compiler]
+
+    src/app/features/vitest-tutorial/14-ngrx-router-store/breadcrumb.component.ts:10:26:
+      10 Ôöé   imports: [CommonModule, RouterLink, RouterLinkActive],
+         ÔòÁ                           ~~~~~~~~~~
+
+
+Ôû▓ [WARNING] NG8113: RouterLinkActive is not used within the template of BreadcrumbComponent [plugin angular-compiler]
+
+    src/app/features/vitest-tutorial/14-ngrx-router-store/breadcrumb.component.ts:10:38:
+      10 Ôöé   imports: [CommonModule, RouterLink, RouterLinkActive],
+         ÔòÁ                                       ~~~~~~~~~~~~~~~~
+
+
+Ôû▓ [WARNING] NG8107: NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. Find more at https://v21.angular.dev/extended-diagnostics/NG8107 [plugin angular-compiler]
+
+    src/app/features/vitest-tutorial/23-table-entity/inventory.component.ts:26:22:
+      26 Ôöé     @if ((products()?.length ?? 0) === 0) {
+         ÔòÁ                       ~~~~~~
+
+
+Ôû▓ [WARNING] File 'src\polyfills.ts' not found in TypeScript compilation. [plugin angular-compiler]
+
+    angular:polyfills:angular:polyfills:1:7:
+      1 Ôöé import './src/polyfills.ts';
+        ÔòÁ        ~~~~~~~~~~~~~~~~~~~~
+
+  The file will be bundled and included in the output but will not be type-checked at build time. To remove this message you can add the file to the TypeScript program via the 'files' or 'include' property.
+
+
+
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90mC:/Users/Elvy6/.gemini/antigravity/scratch/hello-angular[39m
+      [2mCoverage enabled with [22m[33mv8[39m
+
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/04-child-component-mock/dashboard.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 80[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/07-ngrx-standalone/ngrx-counter.component.spec.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 68[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/08-reactive-forms/login.component.spec.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 118[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/21-form-ngrx/search-bar.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 125[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/19-mat-autocomplete/city-search.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 129[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/20-mat-select-cdk/priority-select.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 162[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/18-mat-stepper/onboarding.component.spec.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 223[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/title/title.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 106[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.spec.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 146[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/23-table-entity/inventory.component.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 55[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/17-mat-table/user-table.component.spec.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 184[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/30-error-boundary/app-error-handler.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 690[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m should dispatch Unhandled Error action when an Error object is caught [33m 684[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/15-mat-dialog/dialog.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 37[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/02-standalone-component-basic/greeting.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/22-dialog-ngrx/delete-button.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/14-ngrx-router-store/breadcrumb.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/03-service-mock/counter.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/06-router/nav.component.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/26-defer-blocks/lazy-profile.component.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 23[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/16-mat-snackbar/notifier.component.spec.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/12-ngrx-component-store/todo.store.spec.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/28-custom-directive/highlight.directive.spec.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-real-store/old-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/25-signals/temperature.store.spec.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/13-ngrx-signal-store/theme.store.spec.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/29-async-pipe/live-clock.component.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/old-syntax/components/old-parent-mock-store/old-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/24-route-guard/auth.guard.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/05-http-service/user-api.service.spec.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-mock-store/new-parent-mock-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-parent-real-store/new-parent-real-store.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/27-http-interceptor/auth.interceptor.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/10-ngrx-selectors/cart.selectors.spec.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/01-pure-service/calculator.service.spec.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/09-ngrx-effects/notification.effects.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/vitest-tutorial/11-ngrx-entity/products.store.spec.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/new-syntax/components/new-shallow-parent/new-shallow-parent.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32mÔ£ô[39m [30m[43m hello-angular (chromium) [49m[39m src/app/features/home/chat/chat/chat.component.browser.spec.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 6112[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders with the identity as title and is visible in the browser [33m 2072[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m renders messages received from the WebSocket [33m 2014[2mms[22m[39m
+     [33m[2mÔ£ô[22m[39m shows "Locked by" status when another user holds the lock [33m 2024[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m39 passed[39m[22m[90m (39)[39m
+[2m      Tests [22m [1m[32m201 passed[39m[22m[90m (201)[39m
+[2m   Start at [22m 07:52:53
+[2m   Duration [22m 10.14s[2m (transform 0ms, setup 11.15s, import 6.55s, tests 8.58s, environment 0ms)[22m
+
+[34m % [39m[2mCoverage report from [22m[33mv8[39m
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |    83.8 |    83.52 |   76.92 |   85.33 |                   
+ app               |     100 |    91.66 |     100 |     100 |                   
+  app.html         |     100 |      100 |     100 |     100 |                   
+  app.ts           |     100 |    91.66 |     100 |     100 | 21                
+ ...home/chat/chat |    64.8 |    72.34 |   36.36 |   58.62 |                   
+  ....component.ts |   91.66 |    86.11 |   72.72 |     100 | 80-85             
+  ...et.service.ts |    9.75 |    27.27 |       0 |    7.69 | 11-72             
+ ...res/home/title |     100 |      100 |     100 |     100 |                   
+  ....component.ts |     100 |      100 |     100 |     100 |                   
+  title.module.ts  |     100 |      100 |     100 |     100 |                   
+ ...res/new-syntax |   83.33 |       60 |       0 |      90 |                   
+  ...tax.module.ts |    87.5 |       60 |     100 |     100 | 25                
+  ...ax.reducer.ts |      75 |      100 |       0 |      75 | 7                 
+ ...ents/new-child |      35 |       60 |      25 |   36.36 |                   
+  ....component.ts |   26.66 |       60 |   33.33 |      25 | 8-9,14-20         
+  ...ld.service.ts |      60 |       60 |       0 |   66.66 | 8                 
+ ...ent-mock-store |     100 |    91.66 |     100 |     100 |                   
+  ....component.ts |     100 |    91.66 |     100 |     100 | 8                 
+ ...ent-real-store |     100 |    85.71 |     100 |     100 |                   
+  ....component.ts |     100 |    85.71 |     100 |     100 | 9-10              
+ ...shallow-parent |     100 |    85.71 |     100 |     100 |                   
+  ....component.ts |     100 |    85.71 |     100 |     100 | 9-10              
+ ...res/old-syntax |   94.44 |    91.66 |       0 |   93.33 |                   
+  ...og.service.ts |     100 |    85.71 |     100 |     100 | 10                
+  ...tax.module.ts |     100 |      100 |     100 |     100 |                   
+  ...ax.reducer.ts |      75 |      100 |       0 |      75 | 7                 
+ ...ent-mock-store |     100 |    91.66 |     100 |     100 |                   
+  ....component.ts |     100 |    91.66 |     100 |     100 | 8                 
+ ...ent-real-store |    92.3 |    92.85 |      50 |   93.33 |                   
+  ....component.ts |    92.3 |    92.85 |      50 |   93.33 | 39                
+ ...-syntax-dialog |    8.51 |       50 |      25 |   10.52 |                   
+  ....component.ts |    8.51 |       50 |      25 |   10.52 | 9-32,40-44        
+ ...1-pure-service |     100 |      100 |     100 |     100 |                   
+  ...or.service.ts |     100 |      100 |     100 |     100 |                   
+ ...omponent-basic |     100 |    85.71 |     100 |     100 |                   
+  ....component.ts |     100 |    85.71 |     100 |     100 | 25-28             
+ ...3-service-mock |   76.19 |    66.66 |      40 |   68.42 |                   
+  ....component.ts |     100 |    91.66 |     100 |     100 | 16                
+  ...er.service.ts |   23.07 |    33.33 |       0 |      25 | 13-30             
+ ...component-mock |   91.66 |    78.57 |     100 |   95.65 |                   
+  ....component.ts |     100 |    85.71 |     100 |     100 | 21-22             
+  ....component.ts |   88.46 |    71.42 |     100 |   93.75 | 34                
+ ...5-http-service |      90 |      100 |      75 |   85.71 |                   
+  ...pi.service.ts |      90 |      100 |      75 |   85.71 | 36                
+ ...rial/06-router |     100 |      100 |     100 |     100 |                   
+  nav.component.ts |     100 |      100 |     100 |     100 |                   
+ ...grx-standalone |   97.67 |      100 |   91.66 |      96 |                   
+  counter.store.ts |      90 |      100 |      80 |      90 | 34                
+  ....component.ts |     100 |      100 |     100 |     100 |                   
+ ...reactive-forms |   97.67 |       95 |     100 |   96.87 |                   
+  ....component.ts |   97.67 |       95 |     100 |   96.87 | 74                
+ ...9-ngrx-effects |   84.21 |       80 |   66.66 |   85.71 |                   
+  ...on.actions.ts |     100 |      100 |     100 |     100 |                   
+  ...on.effects.ts |     100 |      100 |     100 |     100 |                   
+  ...on.service.ts |      50 |       60 |       0 |   33.33 | 8-11              
+ ...ngrx-selectors |     100 |      100 |     100 |     100 |                   
+  cart.store.ts    |     100 |      100 |     100 |     100 |                   
+ ...11-ngrx-entity |     100 |      100 |     100 |     100 |                   
+  ...ucts.store.ts |     100 |      100 |     100 |     100 |                   
+ ...omponent-store |   93.33 |     90.9 |    92.3 |   94.44 |                   
+  todo.store.ts    |   93.33 |     90.9 |    92.3 |   94.44 | 43                
+ ...x-signal-store |     100 |      100 |     100 |     100 |                   
+  theme.store.ts   |     100 |      100 |     100 |     100 |                   
+ ...x-router-store |     100 |    93.75 |     100 |     100 |                   
+  ....component.ts |     100 |    92.85 |     100 |     100 | 13                
+  ...te.feature.ts |     100 |      100 |     100 |     100 |                   
+ .../15-mat-dialog |   29.16 |       50 |      50 |   35.71 |                   
+  ....component.ts |   16.66 |       60 |      25 |   15.38 | 14-22,27-31       
+  ....component.ts |   41.66 |    44.44 |      75 |   53.33 | 11-20             
+ ...6-mat-snackbar |    64.7 |       60 |      80 |      75 |                   
+  ....component.ts |    64.7 |       60 |      80 |      75 | 12-14             
+ ...l/17-mat-table |     100 |      100 |     100 |     100 |                   
+  ....component.ts |     100 |      100 |     100 |     100 |                   
+ ...18-mat-stepper |      94 |      100 |      50 |     100 |                   
+  ....component.ts |      94 |      100 |      50 |     100 |                   
+ ...t-autocomplete |     100 |    91.66 |     100 |     100 |                   
+  ....component.ts |     100 |    91.66 |     100 |     100 | 40                
+ ...mat-select-cdk |     100 |      100 |     100 |     100 |                   
+  ....component.ts |     100 |      100 |     100 |     100 |                   
+ ...l/21-form-ngrx |     100 |      100 |     100 |     100 |                   
+  ....component.ts |     100 |      100 |     100 |     100 |                   
+ ...22-dialog-ngrx |   68.42 |    58.33 |      75 |   73.33 |                   
+  ....component.ts |   68.42 |    58.33 |      75 |   73.33 | 19-24             
+ ...3-table-entity |     100 |    92.85 |     100 |     100 |                   
+  ....component.ts |     100 |    92.85 |     100 |     100 | 38                
+ ...24-route-guard |   84.21 |      100 |   57.14 |   88.88 |                   
+  auth.guard.ts    |   84.21 |      100 |   57.14 |   88.88 | 23-24             
+ ...ial/25-signals |     100 |    68.42 |     100 |     100 |                   
+  ...ture.store.ts |     100 |    68.42 |     100 |     100 | 7-14,18-30        
+ ...6-defer-blocks |     100 |      100 |     100 |     100 |                   
+  ....component.ts |     100 |      100 |     100 |     100 |                   
+ ...tp-interceptor |     100 |      100 |     100 |     100 |                   
+  ...nterceptor.ts |     100 |      100 |     100 |     100 |                   
+  token.service.ts |     100 |      100 |     100 |     100 |                   
+ ...stom-directive |     100 |     90.9 |     100 |     100 |                   
+  ....directive.ts |     100 |     90.9 |     100 |     100 | 25                
+ .../29-async-pipe |     100 |      100 |     100 |     100 |                   
+  ....component.ts |     100 |      100 |     100 |     100 |                   
+ ...error-boundary |     100 |      100 |     100 |     100 |                   
+  ...or-handler.ts |     100 |      100 |     100 |     100 |                   
+ app/store         |   93.33 |      100 |   66.66 |   92.85 |                   
+  text.effects.ts  |   88.88 |      100 |      50 |    87.5 | 14                
+  text.reducer.ts  |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------

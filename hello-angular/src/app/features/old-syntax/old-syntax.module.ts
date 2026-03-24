@@ -11,11 +11,17 @@ import { OldParentRealStoreComponent } from './components/old-parent-real-store/
 import { OldParentMockStoreComponent } from './components/old-parent-mock-store/old-parent-mock-store.component';
 import { OldSyntaxDialogComponent } from './components/old-syntax-dialog/old-syntax-dialog.component';
 import { OldSyntaxDialogService } from './old-syntax-dialog.service';
+import { LegacyTimerComponent } from './components/legacy-timer/legacy-timer.component';
 
 @NgModule({
-  declarations: [OldParentRealStoreComponent, OldParentMockStoreComponent, OldSyntaxDialogComponent],
+  declarations: [
+    OldParentRealStoreComponent, 
+    OldParentMockStoreComponent, 
+    OldSyntaxDialogComponent
+  ],
   imports: [
     CommonModule,
+    LegacyTimerComponent,
     MatButtonModule,
     MatDialogModule,
     MatFormFieldModule,
@@ -29,6 +35,6 @@ import { OldSyntaxDialogService } from './old-syntax-dialog.service';
   // 🔑 Module-level provider: every component inside OldSyntaxModule
   //    (declared, or the dialog opened from within) shares this ONE instance.
   providers: [OldSyntaxDialogService],
-  exports: [OldParentRealStoreComponent, OldParentMockStoreComponent]
+  exports: [OldParentRealStoreComponent, OldParentMockStoreComponent, LegacyTimerComponent]
 })
 export class OldSyntaxModule { }

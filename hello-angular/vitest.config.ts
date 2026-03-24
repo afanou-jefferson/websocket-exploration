@@ -1,15 +1,10 @@
 import { defineConfig } from 'vitest/config';
-import { playwright } from '@vitest/browser-playwright';
 
 export default defineConfig({
   test: {
     globals: true,
-    browser: {
-      enabled: true,
-      instances: [
-        { browser: 'chromium' }
-      ],
-    },
+    environment: 'jsdom',
+    setupFiles: ['./src/test-setup.ts'],
     include: ['**/*.spec.ts'],
   },
   resolve: {
