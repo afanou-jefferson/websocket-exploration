@@ -3,6 +3,8 @@ import { ChatComponent } from './chat/chat/chat.component';
 import { ChatStompComponent } from './chat/chat-stomp/chat-stomp.component';
 import { TitleModule } from './title/title.module';
 import { MatDividerModule } from '@angular/material/divider';
+import { LegacyTimerComponent } from '../old-syntax/components/legacy-timer/legacy-timer.component';
+import { ZoneAdvancedComponent } from '../vitest-tutorial/32-zone-js/zone-advanced.component';
 
 @Component({
   selector: 'app-home',
@@ -12,8 +14,17 @@ import { MatDividerModule } from '@angular/material/divider';
     ChatStompComponent,
     TitleModule,
     MatDividerModule,
+    LegacyTimerComponent,
+    ZoneAdvancedComponent,
   ],
   template: `
+    <h2 class="section-title">Zone.js Verification Area</h2>
+    <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px; padding: 1rem; background: #fffde7; border: 2px dashed #fbc02d;">
+      <app-legacy-timer></app-legacy-timer>
+      <app-zone-advanced></app-zone-advanced>
+    </div>
+
+    <mat-divider class="section-divider"></mat-divider>
 
     <app-title></app-title>
 

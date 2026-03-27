@@ -17,5 +17,13 @@ export const routes: Routes = [
   {
     path: 'dialog-demo',
     loadChildren: () => import('./features/dialog-demo/dialog-demo.module').then(m => m.DialogDemoModule)
+  },
+  {
+    path: 'legacy-feature',
+    loadChildren: () => import('./features/legacy-feature/legacy-feature.module').then(m => m.LegacyFeatureModule)
+  },
+  {
+    path: 'legacy-feature-standalone',
+    loadChildren: () => import('./features/legacy-feature-standalone/legacy-feature.routes').then(m => m.legacyFeatureStandaloneRoutes)
   }
 ];

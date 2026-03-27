@@ -1,0 +1,9 @@
+<div class="legacy-header" style="padding: 10px; background-color: #f5f5f5; border-bottom: 1px solid #ddd; margin-bottom: 20px;">
+  <span style="margin-right: 15px; font-weight: bold;">Legacy Feature Navigation:</span>
+  <button mat-button color="primary" routerLink="./comp1" routerLinkActive="mat-accent" [routerLinkActiveOptions]="{exact: true}" style="margin-right: 5px;">Component 1</button>
+  <button mat-button color="primary" routerLink="./comp2" routerLinkActive="mat-accent" [routerLinkActiveOptions]="{exact: true}" style="margin-right: 5px;">Component 2</button>
+  <button mat-button color="primary" routerLink="./comp3" routerLinkActive="mat-accent" [routerLinkActiveOptions]="{exact: true}">Component 3</button>
+</div>
+<div class="legacy-content" style="padding: 10px; border: 1px solid #eee; border-radius: 4px;">
+  <router-outlet></router-outlet>
+</div>
